@@ -1,7 +1,7 @@
 ## Setup.R
 
 # Load the needed libraries
-library("RMySQL")
+library("DBI")
 
 # Load in the MySQL credentials
 source("MySQL Settings.R")
@@ -14,8 +14,7 @@ driver <- RMySQL::MySQL()
 conn <- dbConnect(driver, user = user, password = password, host = host)
 
 #  Read in the SQL to set up the database
-setup_db_sql <- getSQL("Setup Database.sql") # Function found in Utilities.R
-dbSendQuery(conn, setup_db_sql)
+run_sql(conn, "Setup Database.sql") # Function found in Utilities.R
 
 # Disconnect from the database
-dbDisconnect(conn)
+disconnected <- dbDisconnect(conn)
