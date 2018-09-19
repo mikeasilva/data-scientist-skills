@@ -38,7 +38,7 @@ source("Get Locations.R")
 
 # Save the locations data.frame to MySQL
 message("Saving locations to MySQL table")
-dbWriteTable(conn, 'LOCATIONS', locations, append = TRUE)
+dbWriteTable(conn, 'LOCATIONS', locations, append = TRUE, row.names = FALSE)
 
 # Disconnect from the database
 disconnected <- dbDisconnect(conn)
