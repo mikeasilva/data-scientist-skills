@@ -21,7 +21,7 @@ source("Credentials.R")
 source("Utilities.R")
 
 # Connect to the database
-conn <- mysql_connect(user, password, host) # Function found in Utilities.R
+conn <- mysql_connect(mysql_user, mysql_password, mysql_host) # Function found in Utilities.R
 
 #  Read in the SQL to set up the database
 message("Setting up the MySQL Database")
@@ -31,7 +31,7 @@ run_sql(conn, "Setup Database.sql") # Function found in Utilities.R
 disconnected <- dbDisconnect(conn)
 
 # Connect to the database but specify the database name
-conn <- mysql_connect(user, password, host, 'DATA607')
+conn <- mysql_connect(mysql_user, mysql_password, mysql_host, 'DATA607')
 
 # Create a data.frame of locations we want to collect data for
 source("Get Locations.R")
