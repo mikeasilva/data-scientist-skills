@@ -1,10 +1,5 @@
 ## Setup.R
 
-# Set your Census API Key
-# If you don't have a key get one at https://api.census.gov/data/key_signup.html
-Sys.setenv(CENSUS_KEY = "YOUR API KEY HERE")
-Sys.setenv(CENSUS_KEY = "b7ce43a2a321d4efab9598b42e588bd9f50d3881")
-
 # The minimum number of people in the 2010 census to be in the study's universe
 location_pop_threshold = 1000000
 
@@ -19,8 +14,8 @@ for (l in libraries){
   library(l, character.only = TRUE)
 }
 
-# Load in the MySQL credentials
-source("MySQL Settings.R")
+# Load in the credentials
+source("Credentials.R")
 
 # Load in the Utility functions
 source("Utilities.R")
