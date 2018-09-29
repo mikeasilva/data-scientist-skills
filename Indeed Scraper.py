@@ -8,12 +8,8 @@ https://sites.google.com/a/chromium.org/chromedriver/home
 
 Move the file into C:\Windows\System32 or /usr/local/bin to "install" it
 """
-
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from sqlalchemy import create_engine
-#import pandas as pd
-
 
 # Read in Credentials line by line and set equivalent variables
 with open('Credentials.R') as f:
@@ -29,16 +25,13 @@ with open('Credentials.R') as f:
                 password = value.strip()
 f.close()
     
-
 # Start up the selenium instance for scrapping
 browser = webdriver.Chrome()
 browser.get('https://www.indeed.com/')
 
-
 # Create a connection to the MySQL database
 engine = create_engine('mysql+pymysql://'+user+':'+password+'@'+host+'/DATA607')
 conn = engine.connect()
-
 
 # Scrape Indeed location by location
 query = conn.execute('SELECT * FROM LOCATIONS')
