@@ -11,7 +11,7 @@ for (l in libraries){
     install.packages(l)
   }
   # Load the library
-  library(l, character.only = TRUE)
+  suppressMessages(library(l, character.only = TRUE))
 }
 
 # Load in the credentials
@@ -25,7 +25,7 @@ conn <- mysql_connect(mysql_user, mysql_password, mysql_host) # Function found i
 
 #  Read in the SQL to set up the database
 message("Setting up the MySQL Database")
-run_sql(conn, "Setup Database.sql") # Function found in Utilities.R
+run_sql_script(conn, "MySQL Setup.sql") # Function found in Utilities.R
 
 # Disconnect from the database
 disconnected <- dbDisconnect(conn)
@@ -42,3 +42,6 @@ dbWriteTable(conn, 'LOCATIONS', locations, append = TRUE, row.names = FALSE)
 
 # Disconnect from the database
 disconnected <- dbDisconnect(conn)
+
+# Run python script to scrape Dice
+system("python Dice_URL_Scraper.py")

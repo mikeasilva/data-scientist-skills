@@ -29,7 +29,7 @@ get_location_short_name <- function(full_name){
 #' @param db_connection Database connection
 #' @param file_path The path to the SQL file
 #'
-run_sql <- function(db_connection, file_path){
+run_sql_script <- function(db_connection, file_path){
   # Open a connection to the SQL file
   con <- file(file_path, "r")
   # Initialize the SQL string
