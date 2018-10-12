@@ -30,36 +30,32 @@ conn = engine.connect()
 print('Building list of URLs to scrape')
 # This dictionary will be the URL and the Location ID
 urls_to_scrape = dict()
-# This dictonary will hold the URL and the id in the DICE_URLS table
-ids = dict()
 
 sql = '''SELECT `DICE_URLS`.* 
 FROM `DICE_URLS` 
 LEFT JOIN `DICE_RAW_HTML` 
-ON DICE_RAW_HTML.id = DICE_URLS.id 
+ON DICE_RAW_HTML.url = DICE_URLS.url 
 WHERE DICE_RAW_HTML.id IS NULL'''
 
 query = conn.execute(sql) 
 for row in query:
     urls_to_scrape[row[2]] = row[1]
-    ids[row[2]] = row[0]
 
-# This will be the number of pages scraped
-n_scraped = 0
- 
+# This function scrapes the web page and saves the data to a table
 def scrape_and_save(url):
-    print('Scrapping ' + url)
     try:
+        print('Scrapping ' + url)
         response = requests.get(url)
-        i = ids[response.url]
-        LOCATION_id = urls_to_scrape[response.url]
+        LOCATION_id = urls_to_scrape[url]
+        html = str(response.text)
+        data = (LOCATION_id, url, html)
         conn.execute('''INSERT INTO `DICE_RAW_HTML` 
-                     VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP);''', 
-                     (i, LOCATION_id, response.url, response.content))
+                     VALUES (NULL, %s, %s, %s, CURRENT_TIMESTAMP);''', data)
         return 1
     except:
         return 0
-                 
+
+# This is the async loop
 async def scrape_all(urls_to_scrape):
     loop = asyncio.get_event_loop()
     futures = [
@@ -67,16 +63,25 @@ async def scrape_all(urls_to_scrape):
             None, 
             scrape_and_save, 
             url
+            
         )
         for url in urls_to_scrape
     ]
     for response in await asyncio.gather(*futures):
-        n_scraped = n_scraped + response
+        return 1
         #print('Saving ' + response.url)
         
- 
+
+urls = list(urls_to_scrape.keys())
+
+# Sync (SLOW)
+#for url in urls:
+#       scrape_and_save(url)
+        
+# Async (FAST) But Needs to be run multiple times
 loop = asyncio.get_event_loop()
-loop.run_until_complete(scrape_all(urls_to_scrape))
+loop.run_until_complete(scrape_all(urls))
 loop.close()
+
      
 conn.close()
