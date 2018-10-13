@@ -39,20 +39,24 @@ query = conn.execute(sql)
 for row in query:
     urls_to_scrape.append(row[2])
 
-# This function scrapes the web page and saves the data to a table
+# This function scrapes the web page and saves the data to a table.  It is
+# used if the syncronous routine is called.
 def scrape_and_save(url):
     try:
         print('Scrapping ' + url)
         response = requests.get(url)
         html = str(response.text)
         data = (html, url)
+        print('Saving ') + url
         conn.execute('''UPDATE `DICE_RAW_HTML` 
                      SET `html` = %s, scraped = 1 
                      WHERE `DICE_RAW_HTML`.`url` = %s;''', data)
         return 1
     except:
         return 0
-    
+
+# This function is used as part of the asynchronous routine.  It will scrape
+# the webpage and return the data that will be saved in the database.
 def scrape(url):
     print('Scrapping ' + url)
     response = requests.get(url)
@@ -60,8 +64,9 @@ def scrape(url):
     return (html, url)
         
 
-# This is the async loop
+# This is the async loop that will scrape and save the website data 
 async def scrape_all(urls_to_scrape):
+    # This handles the scraping
     loop = asyncio.get_event_loop()
     futures = [
         loop.run_in_executor(
@@ -71,19 +76,29 @@ async def scrape_all(urls_to_scrape):
         )
         for url in urls_to_scrape
     ]
+    # This handles the saving
     for data in await asyncio.gather(*futures):
         print('Saving ' + data[1])
         conn.execute('''UPDATE `DICE_RAW_HTML` 
                      SET `html` = %s, scraped = 1 
                      WHERE `DICE_RAW_HTML`.`url` = %s;''', data)
 
-# Sync (SLOW)
+## Sync routine (SLOW)
 #for url in urls_to_scrape:
 #       scrape_and_save(url)
 
-# Async (FAST) but needs to be run multiple times
+# Async routine (FAST)
+# We need to break up the URLs to process into smaller chunks
+
+# Source: https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+        
 loop = asyncio.get_event_loop()
-loop.run_until_complete(scrape_all(urls_to_scrape))
+for urls in chunks(urls_to_scrape, 100):
+    loop.run_until_complete(scrape_all(urls))
 loop.close()
 
 # Close the connection to the MySQL database
