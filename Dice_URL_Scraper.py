@@ -40,12 +40,7 @@ def get_links(browser, conn, LOCATIONS_id):
         if 'jobs/detail' in link['href']:
             page_url = 'https://www.dice.com' + link['href']
             data_to_insert = (LOCATIONS_id, page_url)
-            conn.execute("""INSERT INTO DICE_URLS (LOCATIONS_id, url) VALUES (%s,%s)""", data_to_insert)
-    # Grab Dice's Salary predictions because it may be interesting to look at
-    #salary = soup.find('div', {'id': 'predictsal'})
-    #salary = salary.text.strip()
-    #return (LOCATIONS_id, salary)
-    #conn.execute("""INSERT IGNORE INTO DICE_SALARY (LOCATIONS_id, salary) VALUES (%s,%s)""", data_to_insert)
+            conn.execute("""INSERT INTO DICE_RAW_HTML (LOCATIONS_id, url) VALUES (%s,%s)""", data_to_insert)
 
 # Start up the selenium instance for scrapping
 browser = webdriver.Chrome()
