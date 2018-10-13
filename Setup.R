@@ -31,7 +31,7 @@ run_sql_script(conn, "MySQL Setup.sql") # Function found in Utilities.R
 disconnected <- dbDisconnect(conn)
 
 # Connect to the database but specify the database name
-conn <- mysql_connect(mysql_user, mysql_password, mysql_host, 'DATA607')
+conn <- mysql_connect(mysql_user, mysql_password, mysql_host, "DATA607")
 
 # Create a data.frame of locations we want to collect data for
 source("Get Locations.R")
