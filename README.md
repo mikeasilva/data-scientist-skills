@@ -39,9 +39,7 @@ This study uses both R and Python 3.  In order to replicate it you will need the
     *   beautifulsoup4
     *   selenium
     
-You will need the [Chrome selenium driver](https://sites.google.com/a/chromium.org/chromedriver/home) installed on your local machine.
-
-You will also need to have [register for a U.S. Census Bureau's API key](https://api.census.gov/data/key_signup.html).
+You will need the [Chrome selenium driver](https://sites.google.com/a/chromium.org/chromedriver/home) installed on your local machine.  You will also need to have [register for a U.S. Census Bureau's API key](https://api.census.gov/data/key_signup.html).
 
 ### Configuration
 
@@ -53,6 +51,6 @@ You will need to edit Credentials.R with your Census Bureau API key and MySQL cr
 
 You will first need to run the Setup.R script.  This will set up your local MySQL database.  Next it will request the 2010 census population from the API for the metropolitan area above the threshold defined in Setup.R.  It will then launch a selenium controlled Chrome browser which will search for dice.com using "Data Scientist" as the keyword and the metro's name for the location.
 
-### Step 2: Dice_Scraper.py
+#### Step 2: Dice_Scraper.py
 
 The next step is to run the Dice Scraper script which will scrape all the URLs previously stored in the MySQL database.  
