@@ -28,8 +28,8 @@ engine = create_engine('mysql+pymysql://'+user+':'+password+'@'+host+'/DATA607')
 conn = engine.connect()
 
 print('Building list of URLs to scrape')
-# This dictionary will be the URL and the Location ID
 urls_to_scrape = list()
+ids = dict()
 
 sql = '''SELECT *
 FROM `DICE_RAW_HTML`
@@ -38,6 +38,7 @@ WHERE scraped = 0'''
 query = conn.execute(sql)
 for row in query:
     urls_to_scrape.append(row[2])
+    ids[row[2]] = row[0]
 
 # This function scrapes the web page and saves the data to a table.  It is
 # used if the syncronous routine is called.
@@ -77,11 +78,13 @@ async def scrape_all(urls_to_scrape):
         for url in urls_to_scrape
     ]
     # This handles the saving
-    for data in await asyncio.gather(*futures):
-        print('Saving ' + data[1])
+    for response in await asyncio.gather(*futures):
+        MySQL_id = ids[response[1]]
+        print('Saving ' + response[1])
+        data = (response[0], MySQL_id)
         conn.execute('''UPDATE `DICE_RAW_HTML` 
                      SET `html` = %s, scraped = 1 
-                     WHERE `DICE_RAW_HTML`.`url` = %s;''', data)
+                     WHERE `DICE_RAW_HTML`.`id` = %s;''', data)
 
 ## Sync routine (SLOW)
 #for url in urls_to_scrape:
