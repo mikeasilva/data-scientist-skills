@@ -7,6 +7,7 @@ This is a project for CUNY SPS 607 - Data Acquisition and Management.  This proj
 * Elizabeth Drikman
 * Michael Yampol
 * Michael Silva
+* Corey Arnouts
 
 ## Motivation
 
