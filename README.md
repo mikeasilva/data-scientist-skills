@@ -32,9 +32,8 @@ This study uses both R and Python 3.  In order to replicate it you will need the
     *   RMySQL
     *   censusapi
     *   dplyr
-*   Python
+*   Python 3
     *   requests
-    *   asyncio
     *   sqlalchemy
     *   pymysql
     *   beautifulsoup4
