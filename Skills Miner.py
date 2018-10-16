@@ -68,7 +68,9 @@ with open('skills_list.txt', 'w') as f:
 
 # Turn the skills counts into a CSV        
 skills_counts_df = pd.DataFrame.from_dict(skills_counts, orient='index')
-skills_counts_df.to_csv('skills_counts.csv')
+skills_counts_df.reset_index(inplace=True)
+skills_counts_df.columns = ['skill', 'count']
+skills_counts_df.to_csv('skills_counts.csv', index=False)
 
 # Write the locations to a csv
 with open('locations.csv', 'w') as f:
