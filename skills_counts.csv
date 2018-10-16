@@ -1,774 +1,774 @@
-0
-1
-24
-90
-10
-254
-93
-19
-17
-38
-7
-2
-7
-51
-47
-27
-4
-8
-1
-124
-17
-49
-24
-3
-1
-1
-76
-1
-13
-54
-60
-16
-6
-58
-4
-46
-4
-54
-6
-3
-2
-76
-1
-37
-1
-2
-7
-1
-2
-1
-12
-69
-16
-14
-17
-16
-24
-10
-20
-1
-19
-76
-8
-1
-1
-1
-1
-1
-42
-1
-12
-40
-3
-4
-6
-19
-17
-11
-27
-4
-58
-26
-2
-2
-1
-7
-1
-1
-2
-6
-2
-2
-2
-2
-2
-1
-1
-1
-17
-1
-1
-1
-1
-1
-16
-2
-10
-11
-5
-2
-1
-5
-1
-1
-22
-2
-11
-6
-8
-8
-2
-5
-1
-7
-1
-1
-1
-17
-1
-15
-1
-1
-2
-2
-1
-1
-1
-1
-7
-1
-1
-2
-2
-2
-2
-10
-1
-1
-1
-1
-1
-2
-8
-1
-1
-3
-1
-1
-5
-1
-6
-4
-4
-22
-5
-10
-4
-6
-7
-1
-1
-3
-1
-3
-1
-1
-1
-1
-1
-1
-1
-1
-4
-6
-1
-1
-2
-2
-3
-1
-13
-5
-1
-6
-1
-2
-1
-1
-2
-7
-29
-6
-4
-17
-1
-2
-1
-1
-3
-2
-2
-2
-1
-1
-3
-6
-2
-16
-4
-1
-8
-6
-17
-8
-1
-1
-2
-1
-1
-1
-1
-1
-2
-2
-2
-4
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-14
-11
-4
-1
-3
-1
-3
-8
-1
-1
-4
-12
-10
-6
-2
-3
-2
-3
-2
-5
-3
-1
-10
-1
-7
-9
-1
-2
-16
-1
-1
-7
-1
-1
-9
-18
-1
-5
-1
-3
-1
-3
-3
-3
-1
-1
-1
-2
-2
-2
-1
-1
-1
-1
-6
-1
-2
-1
-1
-1
-1
-1
-9
-1
-1
-1
-1
-1
-1
-2
-1
-2
-1
-1
-4
-2
-1
-4
-1
-1
-1
-1
-1
-1
-1
-4
-3
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-2
-2
-1
-1
-1
-2
-2
-1
-2
-2
-1
-2
-1
-1
-1
-3
-1
-2
-4
-1
-2
-1
-4
-4
-4
-8
-2
-2
-1
-1
-3
-1
-1
-1
-5
-1
-1
-3
-1
-1
-1
-1
-1
-1
-1
-3
-4
-4
-2
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-2
-1
-1
-4
-1
-1
-2
-2
-2
-1
-1
-1
-5
-2
-2
-1
-1
-1
-2
-2
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-4
-4
-1
-5
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-2
-1
-1
-2
-1
-4
-1
-1
-1
-1
-1
-1
-1
-2
-2
-1
-1
-1
-2
-2
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-2
-1
-4
-4
-2
-2
-2
-2
-4
-2
-3
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-3
-2
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-2
-2
-2
-1
-1
-2
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-2
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-2
-1
-1
-1
-1
-2
-2
-2
-1
-1
-1
-1
-2
-1
-1
-1
-1
-1
-1
-1
-1
-2
-2
-2
-2
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
+,0
+natural language,1
+artificial intelligence,24
+machine learning,90
+matlab,10
+python,254
+r,93
+tensorflow,19
+analyst,17
+database,38
+developer,7
+informatica,2
+lifecycle,7
+management,51
+sas,47
+security,27
+solr,4
+data analytics,8
+data mining and statistical analysis,1
+sql,124
+scala,17
+data science,49
+nlp,24
+node.js,3
+biomedical - data science,1
+biomedical,1
+analysis,76
+change management,1
+consulting,13
+data mining,54
+development,60
+excel,16
+html,6
+modeling,58
+ms office,4
+programming,46
+recruiter,4
+research,54
+natural language processing,6
+information retrieval,3
+recommender systems,2
+hadoop,76
+spark - machine learning,1
+spark,37
+architect,1
+cloud,2
+business intelligence,7
+transformation,1
+process improvement,2
+strategy,1
+analytics,12
+algorithms,69
+data modeling,16
+genetic,14
+oracle,17
+sql server,16
+statistical analysis,24
+teradata,10
+architecture,20
+benchmark,1
+c++,19
+java,76
+sales,8
+masters degree with 5 years of experience in creating machine learning pipelines,1
+creating large datasets,1
+unsupervised (clustering),1
+semi-supervised (label propagation),1
+and supervised algorithms.,1
+,42
+n/a,1
+business requirements,12
+data analysis,40
+gis,3
+hardware,4
+manager,6
+mysql,19
+networks,17
+perl,11
+project,27
+supervision,4
+data scientist,58
+statistics,26
+machine learning models,2
+deep learning networks,2
+pyspark hadoop,1
+redshift,7
+nosql (dynamodb/cassandra/mongodb),1
+mathematica,1
+clustering algorithms,2
+machine learning algorithms,6
+neural networks,2
+restful apis,2
+nosql databases - mongodb-couchbase - cassandra,2
+aws- azure,2
+hadoop - hive - pig,2
+c/c++ - data scientist,1
+c/c++,1
+sme in statistics,1
+big data,17
+python/java/c#,1
+machine learning/data science/data scientist,1
+test ng/selenium,1
+ci/cd/ci-cd/continuous integration/continuous deployment/jenkins,1
+tableau/ raw /chart.js/data visualization,1
+mathematical,16
+modeler,2
+scientific,10
+scripts,11
+supply chain,5
+supply chain management,2
+business analyst data scientist r python jira github tableau powerbi statistics,1
+azure,5
+spark or alteryx,1
+data science - python,1
+agile,22
+data architecture,2
+data warehouse,11
+foundation,6
+http,8
+julia,8
+apache spark - python,2
+apache spark,5
+one modern programming language: java,1
+c#,7
+or python and experience with languages/ frameworks used in ml & analytics: spark,1
+r etc.,1
+senior  data scientist  with phd,1
+aws,17
+business analyst and data and sql,1
+physics,15
+knowledge of a variety of machine learning and statistical modeling techniques in a business setting,1
+aws cloud services: ec2,1
+emr,2
+rds,2
+redshift; s3,1
+etl tools knowledge is required.,1
+senior manager,1
+machine leaning,1
+phd,7
+cplex,1
+ieor,1
+business process analysis,2
+requirements gathering,2
+documentation,2
+presentation skills,2
+deep learning,10
+optimization,1
+reinforcement learningm probabistic inference,1
+pyton,1
+sql data engineer,1
+cisco,1
+micro,2
+mongodb,8
+networking,1
+apache spark or kubernetes or hortonworks or hadoop,1
+slq,3
+watson,1
+watson discovery,1
+spss,5
+watson data studio,1
+.net,6
+asp,4
+asp.net,4
+automated,22
+css,5
+data collection,10
+jquery,4
+ups,6
+validation,7
+data science; statistics,1
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1
+data analyst,3
+erp,1
+sap,3
+mdm,1
+machine learning and tensorflow and statistical model,1
+azure cloud engineer,1
+business intelligence engineer iii,1
+r studio,1
+saas,1
+7 years of progressively increasing responsibilities (marketing,1
+sales or product development function) within a data driven organization,1
+olap,4
+scrum,6
+business analyst,1
+financial industry,1
+android,2
+python or java,2
+image processing,3
+algorithms - machine learning,1
+ai,13
+visualization,5
+crm - python,1
+crm,6
+or recommender systems,1
+leadership,2
+life science - data science,1
+life science,1
+regression,2
+libraries,7
+testing,29
+apache,6
+mapreduce,4
+hive,17
+python - data science,1
+environmental,2
+genetics,1
+qa,1
+predictive model,3
+scikit.learn,2
+virtual environments,2
+bayesian inference,2
+prior teaching experience (not essential) - data science,1
+prior teaching experience (not essential),1
+bigdata,3
+predictive modeling,6
+bi,2
+tableau,16
+cognos,4
+5+ years of experience in a similar role and experience in web attribution analytics.,1
+api,8
+case,6
+metrics,17
+simulation,8
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1
+data-science,1
+machine-learning,2
+life-sciences,1
+predictive-analytics,1
+modeling-and-simulation,1
+bayesian-statistics,1
+artificial-intelligence,1
+sas programming,2
+sas/stat,2
+sas enterprise miner,2
+nlp - data science,4
+hdfs/ hive/ impala,1
+network/ security,1
+development(java),1
+insurance,1
+ai - data scientist,2
+at least 2 to 4 years professional experience in nlp,1
+ai/ml,1
+jquery/javascript programming (including scripting / coding),1
+sql and relational databases,1
+and application development,1
+ruby on rails / ror / ruby / rails,1
+javascript,14
+postgresql,11
+rest,4
+soap - ruby on rails / ror / ruby / rails,1
+soap,3
+machine learning python sql / nosql databases,1
+elasticsearch,3
+predictive analytics,8
+r/python programming,1
+h2o or azure ml,1
+ibm,4
+pandas,12
+numpy,10
+scipy,6
+scikit-learn,2
+go,3
+db2,2
+applied research,3
+dce,2
+ruby,5
+tdd,3
+digital analytics,1
+algorithm,10
+node,1
+business objects,7
+director,9
+machine learning (ml),1
+django,2
+nosql,16
+celery - java,1
+celery,1
+software engineer,7
+bi engineer/data scientist,1
+rational,1
+etl,9
+linux,18
+data warehousing,1
+shell scripting,5
+kdb,1
+data engineering,3
+data science/ai/machine learning,1
+analytical,3
+it,3
+vba,3
+image analytics - python,1
+image analytics,1
+marketing technologies,1
+pre-sales engineering,2
+adobe marketing suite,2
+salesforce marketing suite,2
+oracle marketing suite - marketing technologies,1
+oracle marketing suite,1
+protocols,1
+ai and ml models,1
+pyspark,6
+and scala,1
+object oriented programming,2
+typescript,1
+(digital tag over 0.2 year(s) or tag management over 0.2 year(s) or tagging over 0.2 year(s) or tealium over 0.2 year(s) or piwik pro over 0.2 year(s) or pixel over 0.2 year(s) or qubit over 0.2 year(s) or opentag over 0.2 year(s) or open tag over 0.2 year(s) or ensighten over 0.2 year(s) or google tag over 0.2 year(s) or dynamic tag management over 0.2 year(s) or tag commander over 0.2 year(s) or mezzobit over 0.2 year(s) or supertag over 0.2 year(s) or super tag over 0.2 year(s) or tag defender over 0.2 year(s) or ubertags over 0.2 year(s) or ddx over 0.2 year(s) ) and(analytics over 0.2 year(s) or data scientist over 0.2 year(s) or informatics over 0.2 year(s) ) and(javascript over 0.2 year(s) or java script over 0.2 year(s) or html over 0.2 year(s) ),1
+ai.ml,1
+sklearn,1
+splunk,1
+unix,9
+data scientist machine learning statistics r python c# java scala,1
+9+ years of demonstrated experience leading teams,1
+with thorough knowledge of business intelligence and analytics,1
+organization transformation,1
+and/or business strategy developm,1
+administration,1
+python tools,2
+ai - r,1
+windows,2
+senior data scientist,1
+big data ecosystem,1
+keras,4
+data visualization,2
+data management systems,1
+embedded,4
+graphics,1
+user interface,1
+python software developer background; ml; data science; system programming; webservices,1
+rdms,1
+sosql,1
+bash,1
+caffe,1
+git,4
+data engineer,3
+azure machine learning,1
+datarobot,1
+rapidminer,1
+quantitative researcher-equities,1
+jdbc,1
+xml,2
+xslt,1
+python/r/sas,1
+domino,1
+laboratory,1
+mathematical models,1
+computer vision,1
+masters or phd,2
+2 years industry exp,2
+open source ml & dl frameworks - computer vision,1
+open source ml & dl frameworks,1
+business concepts,1
+data pipelining,2
+tableau - python,2
+pydata,1
+golang,2
+iterative,2
+etl development,1
+linux os,2
+financial experience,1
+scheduling,1
+telecommunications,1
+wireless,3
+adobe,1
+access,2
+analytical skills,4
+materials,1
+software,2
+telecom,1
+econometrics,4
+regressions,4
+hypothesis testing,4
+large data sets,8
+experimental design - sql,2
+experimental design,2
+jr data scientist,1
+marketing data scientist/analyst,1
+scikit,3
+devops,1
+digital marketing,1
+blueprint,1
+statistical modeling,5
+recommendation,1
+mach,1
+gcp,3
+data streaming,1
+machine learning tools like spark mlib,1
+lambda tier,1
+mahout,1
+spss or even r,1
+big data management tools i.e. informatica bdm/idl/eic/idq,1
+conceptual and logical data modeling,1
+operations research,3
+bayesian hierarchical modeling,4
+statistical regression,4
+c++ - operations research,2
+statistical computer language,1
+python - aws,1
+distributed computing - big data,1
+distributed computing,1
+bi dashboards,1
+microsoft powerbi,1
+computer science,1
+mathematics,2
+stanford corenlp,1
+nltk,1
+spacy,2
+pytorch,1
+pig - python,1
+pig,4
+fintech exp,1
+dynamic pricing,1
+avionics,2
+statistical modelers,2
+marketing/advertising analytics,2
+machine learning - dynamic pricing,1
+sql server; unix; x12; epic; cigo; caboodle,1
+sr data scientist,1
+data,5
+scientist,2
+rwd,2
+full relocation package,1
+python r scala sql,1
+customer service,1
+project management,2
+civil,2
+ms sql,1
+release,2
+big data/hadoop,1
+datawarehouse,1
+reporting&etl,1
+data pipelines,1
+ruby on rails,1
+soap - ruby on rails,1
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.   should have hands on experience configuring and onboarding users including developer,1
+software engineer - data engineer - sql,1
+hbase,4
+cassandra,4
+couchbase programming,1
+intern,5
+phd required,1
+qlikview,1
+software development,1
+ecommerce,1
+ms in statistics or analytics,1
+programming in r,2
+sas or pytho,1
+middleware,1
+quality assurance,1
+data modelling,1
+python or r,2
+ms/phd,1
+neural,1
+experience with nlp technologies/data science in a clinical background,2
+expert level understanding of the umls,1
+risk management,4
+tensor flow,1
+cnn,1
+rnn,1
+lead data scientist - high growth startup - nyc - 160k+,1
+rdbms - python,1
+rdbms,1
+powerpoint,1
+version control,2
+adtech,2
+spark - big data,1
+microsoft excel,1
+tibco,1
+visual basic,2
+stata,2
+biostatistics - r,1
+biostatistics,2
+jenkins,1
+statistical analysis and data driven insights,1
+logistic regression,1
+clustering,1
+chaid,1
+random forests,1
+svm,1
+naive bayes classifier,1
+neural network.,1
+oop,2
+erwin r7.0,1
+microsoft azure,1
+azure sql data warehouse,1
+machine learning (aml)python,1
+integration service (ssis),1
+analysis service (ssas),1
+reporting service (ssrs),1
+c,2
+snowflake,1
+statistical diagnostics of models,4
+model building,4
+regression/logistic regression - sas,2
+regression/logistic regression,2
+pricing,2
+underwriting,2
+marketing,4
+distribution,2
+claims,3
+operations - r,1
+operations,1
+mllib,1
+power bi,1
+dax,1
+microsoft,1
+python and (,1
+strategic planning,1
+reporting,1
+financial,1
+operating,1
+spend analysis,1
+trend analysis,1
+ad hoc reporting,1
+supplier campaign tracking,1
+small business,1
+experience using statistical computer languages (r,1
+etc.) to manipulate data and draw insights from large data sets.,1
+data sciences,1
+statistics or data modeling,1
+must have skills:  data science  python  sas,1
+machine learning and statistical modeling techniques,1
+or other scripting languages,1
+(toolkits like pandas,1
+etc.) gcp or other cloud platforms,1
+1. python 2. nlp 3. deep learning,1
+kafka,1
+presto - kafka,1
+presto,1
+chief data scientist,1
+sql tableau marketing analysis,1
+s3,2
+ec2,1
+data modeling and hypothesis generation,1
+sap isu,1
+data analyst and capacity and visualization and sql and azure,1
+microstrategy,1
+ux,1
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1
+process reengineering,1
+reengineering,2
+iterative development,1
+critical thinking,3
+structured,2
+redshift - data scientist,1
+data science python,1
+model development experience,2
+supply chain forecasting,1
+machine learning jda software,1
+sgml,1
+sas or python,1
+ai & cognitive technology,1
+nlp and text analytics,1
+numerical optimization,1
+stochastic simulation,1
+and behavioral modeling and simulation for bfs/retail,1
+java or c++,1
+nlp(natural language processing) git r matlab,1
+quantitative business problem solving,1
+solutions implementation,1
+operations analysis,1
+marketing analysis,1
+simulation development and/or predictive analytics,1
+data design,1
+sagemaker,1
+comprehend,1
+computational physics - data science,1
+computational physics,1
+o advanced applied statistics skills,1
+including distributions,1
+statistical testing,1
+etc. o excellent understanding of fundamental machine learning techniques and algorithms,1
+such as k-nn,1
+teaching technical concepts - data science,1
+teaching technical concepts,1
+cgi,1
+scikit-learn data visualization (matplotlib,1
+seaborn,1
+etc) and analysis tools ( tableau,1
+modeanalytics,1
+etc.) amazon web services (aws),1
+redshift is a plus.,1
+apache zeppelin,1
+elastic search,1
+agile environment,2
+ssps modeler experience,2
+data modeling for analytics,2
+big data management/concepts,2
+agile work environment - data mining,1
+agile work environment,1
+glm,2
+mixed effects,2
+machine learning - python,1
+test plan,1
+astronomy,1
+biology,1
+dba,1
+erwin,1
+predictive modelling,1
+microservices,1
+bitbucket,1
+test,1
+kaggle,1
+xgboost,2
+golang - spark,1
+sparks,1
+finance,1
+wps or spss or python prefer: sql server,1
+tableu,1
+looker,1
+data warehouse reporting,1
+financial data experience,1
+natural programmer,1
+statistics/data modeling,1
+fintech,1
+asset mgmt/electronic trading,1
+cfa a plus,1
+deep learning and machine learning and research and statistical models and (python,1
+scala or c++),1
+jda software,1
+mdm analyst,1
+master data management analyst,1
+forecast,1
+report,1
+azure - data science,1
+bs/ms in computer science,1
+computer engineering,1
+statistics or data mining disciplines5+ years experience as a data scientist (or equivalent role) applying statistical models,1
+machine learning and supervised machine learning to cybersecurity or fraud detectionworking knowledge of security detection tools,1
+logging systems,1
+networking architecture,1
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1
+including python,1
+scala or javaexperience driving research and early stage projects to production implementationcreative approach to problem solving and using leading edge tools to build innovative solutionsteam player with strong desire to learn,1
+share knowledge and build a world class security platform,1
+full stack,1
+sql - full stack,1
+postgres,1
+rabbitmq,1
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1
+statistical/machine learning algorithms - machine learning,1
+statistical/machine learning algorithms,1
+python/r,1
+bioinformatics,1
+programmer,1
+labeling,1
+pl/sql,1
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1
+big data science,1
+python (including numpy,1
+scipy & pandas),1
+bash/shell,1
+sql (oracle,1
+postgres) kafka,1
+gpu,2
+hive - python,1
+scalanltk,1
+stanford,1
+corenlp,1
+anaconda - python,1
+anaconda,1
+flash,1
+backend coding,1
+lambda functions,1
+dynamodb,1
+data scientist level 1 experience with data sets,1
+structured and unstructured data,1
+php,2
+atlassian,1
+random forest,1
+neuro networks,1
+google,2
+netezza,1
+cloundera,1
+mongo,1
+hadoop hbase,1
+vertica,1
+linear,1
+xgboot,1
+wrangle,1
+data architect - r,1
+stats,1
+marketing analytics,1
+quantitative modeling,2
+google analytics,2
+lead generation,2
+full funnel analytics - marketing analytics,1
+full funnel analytics,1
+data science and implementations in python,1
+etl and big data platforms,1
+python.,1
+3+ years experience doing data science with r and python in a professional,1
+team setting (including git & unit testing),1
+sybase,1
+computer,1
+engineer,1
+engineering,1
+performance,1
+quality,1
+systems,1
+applied mathematics,1
+experience with machine learning,1
+computer vision or developing software libraries that abstract/encapsulate custom hardware devices.,1
+sql and data visualization software,1
+modeling - python,1
+python - machine learning,1
+data scientist machine learning statistical modeling database data python r cloud,1
+(machine learning ) and (artificial intelligence ) and (rafa ),1
+data scientist machine learning,1
+big data storage,1
+accumulo,1
+cloudbase,1
+bigtable,1
+enterprise architect,1
+public cloud,1
+infrastructure/platform design,1
+cloud/analytics,1
+cloud enablement/deployment,1
+docker,1
+kubernates,1
+automation,2
+terraform,1
+ansible,1
+puppet,1
+chef,1
+quantitative and mathematical proficiency,1
+claims data,1
+healthcare,1
+healthcare analytics,1
+data science analytics networks machine learning tensorflow,1
+business services general,1
+r programming,1
+apache hadoop,1
+amazon web services,1
+bigquery,2
+hadoop - data,1
+sdlc,1
+web developer,1
+datarobot for quick implementation of ai/ml,1
+large data set organization & analytics,2
+algorithmic development,2
+data visualizations & reporting,2
+automation - machine learning,1
+pythin,1
+data analysis - sql server,1
+see job description,1
+hdfs,2
+building predictive models - r,1
+building predictive models,1
+sql python etl,1
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1
+r/python,1
+data scientists and data analysts with u.s. citizenship required and able to obtain a top secret or secret clearance,1
+machine learning - data scientist,1
+direct analytics,1
+u.s. travel agency,2
+u.s. airline,2
+network planning,2
+yield management,2
+airline contracting - direct analytics,1
+airline contracting,1
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1
+robotics,1
+hiin analyst,1
+t-sql,1
+sprocs,1
+statistical analysis/modeling,1
+quantitative analyst,1
+analytical techniques,1
+data manipulation/wrangling,1
+database concepts and sql,1
+ibm db2 and sql server,1
+ibm spss and sas tools,1
+r and/or python,1
+cfa,1
