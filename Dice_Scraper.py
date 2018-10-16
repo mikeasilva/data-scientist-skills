@@ -37,8 +37,8 @@ WHERE scraped = 0'''
 
 query = conn.execute(sql)
 for row in query:
-    urls_to_scrape.append(row[2])
-    ids[row[2]] = row[0]
+    urls_to_scrape.append(row[1])
+    ids[row[1]] = row[0]
 
 # This function scrapes the web page and saves the data to a table.  It is
 # used if the syncronous routine is called.
