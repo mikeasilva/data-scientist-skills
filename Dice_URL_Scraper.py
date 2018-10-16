@@ -32,15 +32,15 @@ with open('Credentials.R') as f:
 f.close()
 
 
-def get_links(browser, conn, LOCATIONS_id):
+def get_links(browser, conn):
     soup = BeautifulSoup(browser.page_source, 'html5lib')
     # Grab all the job links and insert them into our table of Dice URLs
     links = soup.find_all('a',  {'class': 'dice-btn-link'})
     for link in links:
         if 'jobs/detail' in link['href']:
             page_url = 'https://www.dice.com' + link['href']
-            data_to_insert = (LOCATIONS_id, page_url)
-            conn.execute("""INSERT INTO DICE_RAW_HTML (LOCATIONS_id, url) VALUES (%s,%s)""", data_to_insert)
+            data_to_insert = (page_url, 0)
+            conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
 
 # Start up the selenium instance for scrapping
 browser = webdriver.Chrome()
@@ -51,43 +51,37 @@ engine = create_engine('mysql+pymysql://'+user+':'+password+'@'+host+'/DATA607')
 conn = engine.connect()
 
 # Scrape Dice results location by location
-query = conn.execute('SELECT * FROM LOCATIONS')
-for row in query:
-    print("Getting "+row[2]+" URLs to Scrape")
-    LOCATIONS_id = row[0]
-    location_name = row[2].replace(' ', '+').replace(',', '%2C')
-    start_url = 'https://www.dice.com/jobs?q=Data+Scientist&l='+location_name
-    browser.get(start_url)
-    get_links(browser, conn, LOCATIONS_id)
+start_url = 'https://www.dice.com/jobs?q=%22Data+Scientist%22&l='
+browser.get(start_url)
+get_links(browser, conn)
 
-    more_to_scrape = True
-    while more_to_scrape:
+more_to_scrape = True
+while more_to_scrape:
+    try:
+        myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
         try:
-            myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
-            try:
-                browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
-                get_links(browser, conn, LOCATIONS_id)
-            except NoSuchElementException:
-                # This is thrown when the browser can't find an element by 
-                # xpath meaning we have reached the end of the search results
-                more_to_scrape = False
-        except TimeoutException:
-            print('Loading took too much time!')
-            continue
+            browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
+            get_links(browser, conn)
+        except NoSuchElementException:
+            # This is thrown when the browser can't find an element by 
+            # xpath meaning we have reached the end of the search results
+            more_to_scrape = False
+    except TimeoutException:
+        print('Loading took too much time!')
+        continue
+    except:
+        # Second Chance - Refresh the browser and try again
+        print('Something bad happend.  Trying one more time..')
+        browser.refresh()
+        myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
+        try:
+            browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
+            get_links(browser, conn)
+            print('Success!')
         except:
-            # Second Chance - Refresh the browser and try again
-            print('Something bad happend.  Trying one more time..')
-            browser.refresh()
-            myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
-            try:
-                browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
-                get_links(browser, conn, LOCATIONS_id)
-                print('Success!')
-            except:
-                print('Failed again!')
-                more_to_scrape = False
+            print('Failed again!')
+            more_to_scrape = False
 
-
-# Time to close up show
+# Time to close up the show
 browser.close()
 conn.close()
