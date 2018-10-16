@@ -31,16 +31,23 @@ with open('Credentials.R') as f:
                 password = value.strip()
 f.close()
 
+links_to_scrape = list()
 
 def get_links(browser, conn):
+    links_to_return = list()
     soup = BeautifulSoup(browser.page_source, 'html5lib')
     # Grab all the job links and insert them into our table of Dice URLs
     links = soup.find_all('a',  {'class': 'dice-btn-link'})
     for link in links:
         if 'jobs/detail' in link['href']:
             page_url = 'https://www.dice.com' + link['href']
-            data_to_insert = (page_url, 0)
-            conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
+            links_to_return.append(page_url)
+            #try:
+            #  data_to_insert = (page_url, 0)
+            #  conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
+            #except:
+            #continue
+    return(links_to_return)
 
 # Start up the selenium instance for scrapping
 browser = webdriver.Chrome()
@@ -53,7 +60,7 @@ conn = engine.connect()
 # Scrape Dice results location by location
 start_url = 'https://www.dice.com/jobs?q=%22Data+Scientist%22&l='
 browser.get(start_url)
-get_links(browser, conn)
+links_to_scrape = links_to_scrape + get_links(browser, conn)
 
 more_to_scrape = True
 while more_to_scrape:
@@ -61,7 +68,7 @@ while more_to_scrape:
         myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
         try:
             browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
-            get_links(browser, conn)
+            links_to_scrape = links_to_scrape + get_links(browser, conn)
         except NoSuchElementException:
             # This is thrown when the browser can't find an element by 
             # xpath meaning we have reached the end of the search results
@@ -76,7 +83,7 @@ while more_to_scrape:
         myElem = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, 'predictsal')))
         try:
             browser.find_element_by_xpath('//*[@title="Go to next page"]').click()
-            get_links(browser, conn)
+            links_to_scrape = links_to_scrape + get_links(browser, conn)
             print('Success!')
         except:
             print('Failed again!')
@@ -84,4 +91,10 @@ while more_to_scrape:
 
 # Time to close up the show
 browser.close()
+
+# Get a unique set of URLs to insert
+for page_url in set(links_to_scrape):
+    data_to_insert = (page_url, 0)
+    conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
+
 conn.close()
