@@ -42,11 +42,6 @@ def get_links(browser, conn):
         if 'jobs/detail' in link['href']:
             page_url = 'https://www.dice.com' + link['href']
             links_to_return.append(page_url)
-            #try:
-            #  data_to_insert = (page_url, 0)
-            #  conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
-            #except:
-            #continue
     return(links_to_return)
 
 # Start up the selenium instance for scrapping
@@ -92,7 +87,7 @@ while more_to_scrape:
 # Time to close up the show
 browser.close()
 
-# Get a unique set of URLs to insert
+# Get a unique set of URLs to insert and do it
 for page_url in set(links_to_scrape):
     data_to_insert = (page_url, 0)
     conn.execute("""INSERT INTO DICE_RAW_HTML (url, scraped) VALUES (%s, %s)""", data_to_insert)
