@@ -29,13 +29,14 @@ conn = engine.connect()
 
 skills_list = list()
 locations_list = list()
-job_title_list = list()
+location_skills = dict()
 
 query = conn.execute('SELECT * FROM `DICE_RAW_HTML`')
 
 for row in query:
     lat = None
     lon = None
+    skills = list()
     i = row[0]
     soup = BeautifulSoup(row[2], 'html5lib')
     scripts = soup.find_all("script")
@@ -44,14 +45,16 @@ for row in query:
         if '"skills" :' in line:
             skills = line.lower().split('"')[3].split(',')
             skills_list = skills_list + skills
+        # These next few lines are not an error.  The latitude and longitude
+        # are miscoded in the data.
         elif '"longitude" :' in line:
-            lon = float(line.split('"')[3])
-        elif '"latitude" :' in line:
             lat = float(line.split('"')[3])
-        elif '"job_title": ' in line:
-            job_title = line.lower().split('"')[3]
-            job_title_list.append(job_title)
+        elif '"latitude" :' in line:
+            lon = float(line.split('"')[3])
     locations_list.append((lat, lon))
+    # Add the skills by location
+    location_key = str(lat) + ":" + str(lon)
+    location_skills[location_key] = location_skills.get(location_key, list()) + skills
 
 # Clean up the list into a single list of skills
 skills_counts = dict()
@@ -70,7 +73,7 @@ with open('skills_list.txt', 'w') as f:
 skills_counts_df = pd.DataFrame.from_dict(skills_counts, orient='index')
 skills_counts_df.reset_index(inplace=True)
 skills_counts_df.columns = ['skill', 'count']
-skills_counts_df.to_csv('skills_counts.csv', index=False)
+skills_counts_df.to_csv('skills_counts.csv')
 
 # Write the locations to a csv
 with open('locations.csv', 'w') as f:
