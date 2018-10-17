@@ -30,6 +30,7 @@ conn = engine.connect()
 skills_list = list()
 locations_list = list()
 location_skills = dict()
+raw_skills = list()
 
 query = conn.execute('SELECT * FROM `DICE_RAW_HTML`')
 
@@ -45,6 +46,7 @@ for row in query:
         if '"skills" :' in line:
             skills = line.lower().split('"')[3].split(',')
             skills_list = skills_list + skills
+            raw_skills.append({'id':i, 'url': row[1], 'raw_skills': skills})
         # These next few lines are not an error.  The latitude and longitude
         # are miscoded in the data.
         elif '"longitude" :' in line:
@@ -80,6 +82,10 @@ with open('locations.csv', 'w') as f:
     f.write("lat,lon\n")
     for item in locations_list:
         f.write(str(item[0])+","+str(item[1])+"\n")
+
+# Create the raw skills csv
+raw_skills_df = pd.DataFrame(raw_skills)
+raw_skills_df.to_csv('raw_skills.csv')
 
 # Close the connection to the MySQL database
 conn.close()
