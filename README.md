@@ -31,6 +31,10 @@ This study uses both R and Python 3.  In order to replicate it you will need the
     *   DBI
     *   RMySQL
     *   dplyr
+    *   tidyr
+    *   stringr
+    *   splitstackshape
+    *   Hmisc
 *   Python 3
     *   requests
     *   sqlalchemy
@@ -58,3 +62,7 @@ The next step is to run the Dice Scraper script which will scrape all the URLs p
 #### Step 3: Skills Miner.py
 
 Next run the Skills Miner script which will create locations.csv, skills_counts.csv and skills_list.csv.
+
+#### Step 4: Project_3_V2.R
+
+Next run Project_3_V2.R which will clean up the skills_counts.csv and create data_science.csv
