@@ -75,7 +75,7 @@ with open('skills_list.txt', 'w') as f:
 skills_counts_df = pd.DataFrame.from_dict(skills_counts, orient='index')
 skills_counts_df.reset_index(inplace=True)
 skills_counts_df.columns = ['skill', 'count']
-skills_counts_df.to_csv('skills_counts.csv', index=False)
+skills_counts_df.to_csv('skills_counts.csv')
 
 # Write the locations to a csv
 with open('locations.csv', 'w') as f:
@@ -85,7 +85,7 @@ with open('locations.csv', 'w') as f:
 
 # Create the raw skills csv
 raw_skills_df = pd.DataFrame(raw_skills)
-raw_skills_df.to_csv('raw_skills.csv', index=False)
+raw_skills_df.to_csv('raw_skills.csv')
 
 # Close the connection to the MySQL database
 conn.close()
