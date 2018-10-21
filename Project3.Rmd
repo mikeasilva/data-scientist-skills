@@ -11,19 +11,20 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Overview
+# Overview
 
-Motivation:
++ Motivation:
 
 Our motivation for this study is to gain an understanding of which skills are the most useful for a data scientist to have so that we can plan what courses to take in our Master's program
 
-Approach:
++ Approach:
 
 To answer this question we will scrape data scientist job listings on dice.com and extract the skills listed on the postings.
 
-## Replication
+# Replication
 
-System Requirements:
++ System Requirements:
+
 This study uses both R and Python 3. In order to replicate it you will need the following installed:
 
 R:
@@ -36,7 +37,7 @@ R:
 - splitstackshape
 - Hmisc
 
-## Replication Cont'd
+# Replication Cont'd
 
 Python 3:
 
@@ -47,28 +48,29 @@ Python 3:
 - selenium
 - pandas
 
-You will need the Chrome selenium driver installed on your local machine
+*You will need the Chrome selenium driver installed on your local machine*
 
 Configuration:
+
 - You will need to edit Credentials.R with your MySQL credentials
 
-## Replication cont'd
+# Replication cont'd
 
-Step 1: Setup.R
++ Step 1: Setup.R
 
-- You will first need to run the Steup.R script. his will set up your local MySQL database. It will then launch a selenium controlled Chrome browser which will search for dice.com using "Data Scientist" as the keyword (in quotes).
+You will first need to run the Steup.R script. his will set up your local MySQL database. It will then launch a selenium controlled Chrome browser which will search for dice.com using "Data Scientist" as the keyword (in quotes).
 
-Step 2: Dice_Scraper.py
++ Step 2: Dice_Scraper.py
 
-- The next step is to run the Dice Scraper script which will scrape all the URLs previously stored in the MySQL database. Note: You may need to run this more than once.
+The next step is to run the Dice Scraper script which will scrape all the URLs previously stored in the MySQL database. Note: You may need to run this more than once.
 
-Step 3: Skills Miner.py
++ Step 3: Skills Miner.py
 
-- Next run the Skills Miner script which will create locations.csv, skills_counts.csv and skills_list.csv.
+Next run the Skills Miner script which will create locations.csv, skills_counts.csv and skills_list.csv.
 
-Step 4: Project_3_V2.R
++ Step 4: Project_3_V2.R
 
-- Next run Project_3_V2.R which will clean up the skills_counts.csv and create data_science.csv
+Next run Project_3_V2.R which will clean up the skills_counts.csv and create data_science.csv
 
 ## Markdown Files
 
