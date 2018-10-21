@@ -1,0 +1,1047 @@
+skill,count,clean_skill,skill_group,Period Table Group
+python,254,Python,Programming Language,Conferences
+sql,124,SQL,Database Technology,Programming Languages & Distributions
+r,93,R,Programming Language,Programming Languages & Distributions
+machine learning,90,Machine Learning,Machine Learning,Machine Learning & Stats
+hadoop,76,Hadoop,Database Technology,Search & Data Management
+analysis,76,Data Analysis,General Skill,General Skill
+java,76,Java,Programming Language,Programming Languages & Distributions
+algorithms,69,Algorithm,Machine Learning,Machine Learning & Stats
+development,60,Development,,Programming Languages & Distributions
+modeling,58,Machine Learning,Machine Learning,Machine Learning & Stats
+data scientist,58,Data Scientist,Position,Position
+data mining,54,Data Mining,General Skill,Search & Data Management
+research,54,Research,General Skill,General Skill
+management,51,Management,General Skill,Soft Skill
+data science,49,Data Science,,General Skill
+sas,47,SAS,Programming Language,Programming Languages & Distributions
+programming,46,Programming,,Programming Languages & Distributions
+data analysis,40,Data Analysis,General Skill,General Skill
+database,38,Database,Database Technology,Search & Data Management
+spark,37,Spark,Database Technology,Search & Data Management
+testing,29,Testing,,Machine Learning & Stats
+project,27,Project Management,Soft Skill,Collaboration
+security,27,Security,,Search & Data Management
+statistics,26,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+artificial intelligence,24,Artificial Intelligence,General Skill,Machine Learning & Stats
+nlp,24,Natural Language Processing,General Skill,Machine Learning & Stats
+statistical analysis,24,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+agile,22,Agile,Environment,Collaboration
+automated,22,Automation,General Skill,Search & Data Management
+architecture,20,Architecture,Domain Expertise,Domain Expertise
+mysql,19,MySQL,Database Technology,Search & Data Management
+c++,19,C++,Programming Language,Programming Languages & Distributions
+tensorflow,19,TensorFlow,Machine Learning,Machine Learning & Stats
+linux,18,Linux,Operating System,Operating System
+aws,17,Amazon Web Services,Cloud Computing,Search & Data Management
+hive,17,Hive,Database Technology,Search & Data Management
+oracle,17,Oracle,Database Technology,Search & Data Management
+big data,17,Big Data,General Skill,Search & Data Management
+analyst,17,Data Analysis,General Skill,General Skill
+scala,17,Scala,Programming Language,Programming Languages & Distributions
+metrics,17,Metrics,,Domain Expertise
+networks,17,Networks,,Search & Data Management
+sql server,16,SQL,Database Technology,Programming Languages & Distributions
+nosql,16,NoSQL,Database Technology,Search & Data Management
+data modeling,16,Data Modeling,General Skill,Machine Learning & Stats
+mathematical,16,Mathematics,General Skill,Machine Learning & Stats
+tableau,16,Tableau,Visualization,Data Visualization & Reporting
+excel,16,Excel,Spreadsheet,Data Visualization & Reporting
+physics,15,Physics,Domain Expertise,Domain Expertise
+genetic,14,Genetics,Domain Expertise,Domain Expertise
+javascript,14,JavaScript,Programming Language,Programming Languages & Distributions
+ai,13,Artificial Intelligence,General Skill,Machine Learning & Stats
+consulting,13,Consulting,Soft Skill,Soft Skill
+analytics,12,Data Analysis,General Skill,General Skill
+business requirements,12,Documentation,,Collaboration
+pandas,12,Pandas,Programming Language,Programming Languages & Distributions
+data warehouse,11,Data Warehouse,Database Technology,Search & Data Management
+postgresql,11,PostgreSQL,Database Technology,Search & Data Management
+perl,11,Perl,Programming Language,Programming Languages & Distributions
+scripts,11,Scripts,Programming Language,Programming Languages & Distributions
+algorithm,10,Algorithm,Machine Learning,Machine Learning & Stats
+deep learning,10,Deep Learning,Machine Learning,Machine Learning & Stats
+matlab,10,MATLAB,Programming Language (Math/Stat),Programming Languages & Distributions
+data collection,10,Data Collection,,Search & Data Management
+numpy,10,NumPy,Programming Language,Programming Languages & Distributions
+scientific,10,Scientific,,needs input
+teradata,10,Teradata,Database Technology,Search & Data Management
+etl,9,Extract Transform Load,General Skill,Search & Data Management
+director,9,Director,Position,Position
+unix,9,Bash,Scripting,Programming Languages & Distributions
+api,8,API,Database Technology,Search & Data Management
+mongodb,8,MongoDB,Database Technology,Search & Data Management
+large data sets,8,Big Data,General Skill,Search & Data Management
+data analytics,8,Data Analysis,General Skill,General Skill
+predictive analytics,8,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+simulation,8,Simulation,General Skill,Machine Learning & Stats
+julia,8,Julia,Programming Language,Programming Languages & Distributions
+http,8,HTTP,Web interface,needs input
+sales,8,Sales,,needs input
+phd,7,PhD,Credential,Credential
+redshift,7,Redshift,Database Technology,Search & Data Management
+business objects,7,Business,Domain Expertise,Domain Expertise
+libraries,7,Libraries,Domain Expertise,Domain Expertise
+business intelligence,7,Business Intelligence,General Skill,Business Intelligence & Reporting
+validation,7,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+developer,7,Developer,Position,Position
+software engineer,7,Software Engineer,Position,Position
+c#,7,C#,Programming Language,Programming Languages & Distributions
+lifecycle,7,Lifecycle,,needs input
+case,6,Case,Development Tool,Search & Data Management
+natural language processing,6,Natural Language Processing,General Skill,Machine Learning & Stats
+predictive modeling,6,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+machine learning algorithms,6,Machine Learning,Machine Learning,Machine Learning & Stats
+manager,6,Manager,Position,Position
+.net,6,.NET,Programming Language,Programming Languages & Distributions
+apache,6,Apache,Web Server,Search & Data Managemebt
+crm,6,CRM,Domain Knowledge,needs input
+foundation,6,Foundation,,needs input
+html,6,HTML,Web interface,needs input
+pyspark,6,Pyspark,Database Tecnology,Programming Languages & Distributions
+scipy,6,Scipy,Programming Language - Mathematical,Programming Languages & Distributions
+scrum,6,Scrum,Methodology,Collaboration
+ups,6,UPS,,needs input
+azure,5,Microsoft Azure,Cloud Computing,Search & Data Management
+apache spark,5,Spark,Database Technology,Search & Data Management
+statistical modeling,5,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+intern,5,Intern,Position,Position
+css,5,CSS,Programming Language,Programming Languages & Distributions
+ruby,5,Ruby,Programming Language,Programming Languages & Distributions
+spss,5,SPSS,Programming Language,Programming Languages & Distributions
+data,5,Data,,needs input
+shell scripting,5,Shell Scripting,Programming Language,Programming Languages & Distributions
+supply chain,5,Supply Chain,Domain Expertise,needs input
+visualization,5,Visualization,,Data Visualization & Reporting
+hbase,4,HBase,Database Technology,Search & Data Management
+olap,4,OLAP,Database Technology,Search & Data Management
+pig,4,Pig,Database Technology,Search & Data Management
+rest,4,REST,Database Technology,Search & Data Management
+cassandra,4,Cassandra,Database Technology,Search & Data Management
+mapreduce,4,MapReduce,Distributed Computing,Search & Data Management
+marketing,4,Marketing,Domain Expertise,Domain Expertise
+recruiter,4,Recruiter,Domain Expertise,Domain Expertise
+risk management,4,Risk Management,Domain Expertise,Domain Expertise
+ibm,4,Exclude,Exclude,needs input
+analytical skills,4,Data Analysis,General Skill,General Skill
+nlp - data science,4,Natural Language Processing,General Skill,Machine Learning & Stats
+regressions,4,Regression,General Skill,Machine Learning & Stats
+statistical diagnostics of models,4,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical regression,4,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+keras,4,Keras,Machine Learning,Machine Learning & Stats
+model building,4,Machine Learning,Machine Learning,Machine Learning & Stats
+bayesian hierarchical modeling,4,Hierarchical Modeling,Mathematical ,Machine Learning & Stats
+asp.net,4,.NET,Programming Language,Programming Languages & Distributions
+asp,4,ASP,Programming Language,Programming Languages & Distributions
+asp.net,4,ASP,Programming Language,Programming Languages & Distributions
+jquery,4,jQuery,Programming Language,Programming Languages & Distributions
+git,4,Git,Programming Tool,Collaboration
+bayesian hierarchical modeling,4,Bayesian,Statistical,Machine Learning & Stats
+cognos,4,Cognos,Analytics tool,Data Visualization & Reporting
+econometrics,4,Econometrics,,Machine Learning & Stats
+embedded,4,Embedded,,needs input
+hardware,4,Hardware,,needs input
+hypothesis testing,4,Hypothesis Testing,Statistics,Machine Learning & Stats
+ms office,4,Office,,Data Visualization & Reporting
+solr,4,Solr,,Search & Data Management
+supervision,4,Supervision,,needs input
+gcp,3,Google Cloud Platform,Cloud Computing,Search & Data Management
+soap,3,SOAP,Database Technology,Search & Data Management
+slq,3,SQL,Database Technology,Programming Languages & Distributions
+claims,3,Claims,Domain Expertise,Domain Expertise
+gis,3,GIS,Domain Expertise,Domain Expertise
+operations research,3,Operations,Domain Expertise,Domain Expertise
+bigdata,3,Big Data,General Skill,Search & Data Management
+analytical,3,Data Analysis,General Skill,General Skill
+applied research,3,Data Analysis,General Skill,General Skill
+data engineering,3,Data Engineering,General Skill,Search & Data Management
+predictive model,3,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+data analyst,3,Data Analyst,Position,Position
+data engineer,3,Data Engineer,Position,Position
+go,3,Go,Programming Language,Programming Languages & Distributions
+node.js,3,Node.js,Programming Language,Programming Languages & Distributions
+vba,3,Visual Basic,Programming Languauge,Programming Languages & Distributions
+critical thinking,3,Critical Thinking,Soft Skill,Soft Skill
+elasticsearch,3,Elasticsearch,Search tools,Search & Data Management
+image processing,3,Image Analytics,AI,Machine Learning & Stats
+information retrieval,3,Information Retrieval,Database Technology,Search & Data Management
+it,3,IT,,Search & Data Management
+sap,3,SAP,Database Technology,Search & Data Management
+scikit,3,Scikit-Learn,Machine Learning,Machine Learning & Stats
+tdd,3,Test-Driven Development,Methodology,Machine Learning & Stats
+wireless,3,Wireless,,needs input
+aws- azure,2,Amazon Web Services,Cloud Computing,Search & Data Management
+cloud,2,Cloud,Cloud Computing,Search & Data Management
+aws- azure,2,Microsoft Azure,Cloud Computing,Search & Data Management
+masters or phd,2,Master's Degree,Credential,Credential
+masters or phd,2,PhD,Credential,Credential
+hadoop - hive - pig,2,Hadoop,Database Technology,Search & Data Management
+hdfs,2,HDFS,Database Technology,Search & Data Management
+hadoop - hive - pig,2,Hive,Database Technology,Search & Data Management
+nosql databases - mongodb-couchbase - cassandra,2,MongoDB,Database Technology,Search & Data Management
+hadoop - hive - pig,2,Pig,Database Technology,Search & Data Management
+rds,2,Relational Database Management Systems,Database Technology,Search & Data Management
+restful apis,2,REST,Database Technology,Search & Data Management
+apache spark - python,2,Spark,Database Technology,Search & Data Management
+experimental design - sql,2,SQL,Database Technology,Programming Languages & Distributions
+access,2,Access,Database Technology,Search & Data Management
+bigquery,2,BigQuery,Database Technology,Search & Data Management
+nosql databases - mongodb-couchbase - cassandra,2,Cassandra,Database Technology,Search & Data Management
+nosql databases - mongodb-couchbase - cassandra,2,Couchbase,Database Technology,Search & Data Management
+db2,2,DB2,Database Technology,Search & Data Management
+nosql databases - mongodb-couchbase - cassandra,2,NoSQL,Database Technology,Search & Data Management
+django,2,Django,Development Tool,Programming Languages & Distributions
+adtech,2,Adtech,Domain Expertise,Domain Expertise
+u.s. airline,2,Airlines,Domain Expertise,Domain Expertise
+u.s. travel agency,2,Airlines,Domain Expertise,Domain Expertise
+avionics,2,Avionics,Domain Expertise,Domain Expertise
+biostatistics,2,Biostatistics,Domain Expertise,Domain Expertise
+business process analysis,2,Business,Domain Expertise,Domain Expertise
+emr,2,Electronic Medical Record,Domain Expertise,Domain Expertise
+environmental,2,Environmental,Domain Expertise,Domain Expertise
+lead generation,2,Lead Generation,Domain Expertise,Domain Expertise
+marketing/advertising analytics,2,Marketing,Domain Expertise,Domain Expertise
+experience with nlp technologies/data science in a clinical background,2,Medical Clinic,Domain Expertise,Domain Expertise
+c++ - operations research,2,Operations,Domain Expertise,Domain Expertise
+underwriting,2,Underwriting,Domain Expertise,Domain Expertise
+agile environment,2,Agile,Environment,Environment
+release,2,Exclude,Exclude,needs input
+rwd,2,Exclude,Exclude,needs input
+ai - data scientist,2,Artificial Intelligence,General Skill,Machine Learning & Stats
+big data management/concepts,2,Big Data,General Skill,Search & Data Management
+large data set organization & analytics,2,Big Data,General Skill,Search & Data Management
+bi,2,Business Intelligence,General Skill,Business Intelligence & Reporting
+data architecture,2,Data Architecture,General Skill,Search & Data Management
+data modeling for analytics,2,Data Modeling,General Skill,Machine Learning & Stats
+mathematics,2,Mathematics,General Skill,Machine Learning & Stats
+experience with nlp technologies/data science in a clinical background,2,Natural Language Processing,General Skill,Machine Learning & Stats
+quantitative modeling,2,Quantitative Analysis/Modeling,General Skill,Machine Learning & Stats
+regression,2,Regression,General Skill,Machine Learning & Stats
+regression/logistic regression,2,Regression,General Skill,Machine Learning & Stats
+regression/logistic regression - sas,2,Regression,General Skill,Machine Learning & Stats
+statistical modelers,2,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+data visualization,2,Visualization,General Skill,Data Visualization & Reporting
+data visualizations & reporting,2,Visualization,General Skill,Data Visualization & Reporting
+algorithmic development,2,Algorithm,Machine Learning,Machine Learning & Stats
+clustering algorithms,2,Clustering,Machine Learning,Machine Learning & Stats
+deep learning networks,2,Deep Learning,Machine Learning,Machine Learning & Stats
+machine learning models,2,Machine Learning,Machine Learning,Machine Learning & Stats
+machine-learning,2,Machine Learning,Machine Learning,Machine Learning & Stats
+model development experience,2,Machine Learning,Machine Learning,Machine Learning & Stats
+neural networks,2,Machine Learning,Machine Learning,Machine Learning & Stats
+glm,2,Generalized Linear Model,Mathematical ,Machine Learning & Stats
+linux os,2,Linux,Operating System,Operating System
+android,2,Android,Platform,Operating System
+ai - data scientist,2,Data Scientist,Position,Position
+modeler,2,Modeler,Position,Position
+scientist,2,Scientist,Position,Position
+c,2,C,Programming Language,Programming Languages & Distributions
+c++ - operations research,2,C++,Programming Language,Programming Languages & Distributions
+golang,2,Go,Programming Language,Programming Languages & Distributions
+python or java,2,Java,Programming Language,Programming Languages & Distributions
+php,2,PHP,Programming Language,Programming Languages & Distributions
+apache spark - python,2,Python,Programming Language,Conferences
+python or java,2,Python,Programming Language,Conferences
+python or r,2,Python,Programming Language,Conferences
+python tools,2,Python,Programming Language,Conferences
+programming in r,2,R,Programming Language,Programming Languages & Distributions
+python or r,2,R,Programming Language,Programming Languages & Distributions
+regression/logistic regression - sas,2,SAS,Programming Language,Programming Languages & Distributions
+sas enterprise miner,2,SAS,Programming Language,Programming Languages & Distributions
+sas programming,2,SAS,Programming Language,Programming Languages & Distributions
+sas/stat,2,SAS,Programming Language,Programming Languages & Distributions
+ssps modeler experience,2,SPSS,Programming Language,Programming Languages & Distributions
+visual basic,2,Visual Basic,Programming Languauge,Programming Languages & Distributions
+leadership,2,Leadership,Soft Skill,Soft Skill
+presentation skills,2,Presentation Skills,Soft Skill,Soft Skill
+process improvement,2,Process Improvement,Soft Skill,Soft Skill
+project management,2,Project Management,Soft Skill,Soft Skill
+adobe marketing suite,2,Adobe,Software,Data Visualization & Reporting
+bayesian inference,2,Bayesian,Statistical,Machine Learning & Stats
+mixed effects,2,Mixed Effects,Statistical Modeling,Machine Learning & Stats
+tableau - python,2,Tableau,Visualization,Data Visualization & Reporting
+automation,2,Automation,General Skill,Search & Data Management
+civil,2,Civil,,Domain Expertise
+data pipelining,2,Data Pipelines,Data Engineering,Search & Data Management
+experience with nlp technologies/data science in a clinical background,2,Data Science,,Machine Learning & Stats
+dce,2,Distributed Computing Environment,Database Technology,Search & Data Management
+distribution,2,Distribution,,needs input
+documentation,2,Documentation,,Collaboration
+requirements gathering,2,Documentation,,Collaboration
+2 years industry exp,2,Experience,,needs input
+experience with nlp technologies/data science in a clinical background,2,Experience,,needs input
+model development experience,2,Experience,,needs input
+experimental design,2,Experimental Design,,needs input
+experimental design - sql,2,Experimental Design,,needs input
+google,2,Google,,needs input
+google analytics,2,Google Analytics,,Data Visualization & Reporting
+gpu,2,GPU,Hardware,needs input
+informatica,2,Informatica,Cloud Computing,Search & Data Management
+iterative,2,Iterative Development,Methodology,needs input
+micro,2,Micro,,needs input
+network planning,2,Network Planning,,Search & Data Management
+oop,2,Object Oriented Programming,Methodology,Programming Languages & Distributions
+pre-sales engineering,2,Pre-Sales Engineering,General Skill,needs input
+pricing,2,Pricing,Domain Expertise,needs input
+object oriented programming,2,Programming Languages,General Skill,Programming Languages & Distributions
+recommender systems,2,Recommender Systems,Machine Learning,Machine Learning & Stats
+reengineering,2,Reengineering,,needs input
+data visualizations & reporting,2,Reporting,General Skill,Data Visualization & Reporting
+s3,2,S3,,Search & Data Management
+salesforce marketing suite,2,Salesforce,,Domain Expertise
+scikit-learn,2,Scikit-Learn,Machine Learning,Machine Learning & Stats
+scikit.learn,2,Scikit-Learn,Machine Learning,Machine Learning & Stats
+software,2,Software Development,General Skill,needs input
+spacy,2,spaCy,,needs input
+stata,2,Stata,Programming Language - Econometrics,Machine Learning & Stats
+structured,2,Structured Data,General Skill,Machine Learning & Stats
+supply chain management,2,Supply Chain,Domain Expertise,Domain Expertise
+version control,2,Version Control,Development Tools,Collaboration
+virtual environments,2,VM,Virtualization,Operating System
+windows,2,Windows,Operating System,Operating System
+xgboost,2,XGBoost,Machine Learning,Machine Learning & Stats
+xml,2,XML,Data format,Search & Data Management
+yield management,2,Yield Management,Domain Expertise,needs input
+looker,1,Looker,Business Intelligence,Data Visualization & Reporting
+amazon web services,1,Amazon Web Services,Cloud Computing,Search & Data Management
+aws cloud services: ec2,1,Amazon Web Services,Cloud Computing,Search & Data Management
+ec2,1,Amazon Web Services,Cloud Computing,Search & Data Management
+etc.) amazon web services (aws),1,Amazon Web Services,Cloud Computing,Search & Data Management
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Amazon Web Services,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1,Amazon Web Services,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Amazon Web Services,Cloud Computing,Search & Data Management
+python - aws,1,Amazon Web Services,Cloud Computing,Search & Data Management
+cloud enablement/deployment,1,Cloud,Cloud Computing,Search & Data Management
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1,Cloud,Cloud Computing,Search & Data Management
+cloud/analytics,1,Cloud,Cloud Computing,Search & Data Management
+data scientist machine learning statistical modeling database data python r cloud,1,Cloud,Cloud Computing,Search & Data Management
+etc.) gcp or other cloud platforms,1,Cloud,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1,Cloud,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Cloud,Cloud Computing,Search & Data Management
+etc.) gcp or other cloud platforms,1,Google Cloud Platform,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1,Google Cloud Platform,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Google Cloud Platform,Cloud Computing,Search & Data Management
+public cloud,1,Google Cloud Platform,Cloud Computing,Search & Data Management
+azure - data science,1,Microsoft Azure,Cloud Computing,Search & Data Management
+azure cloud engineer,1,Microsoft Azure,Cloud Computing,Search & Data Management
+azure machine learning,1,Microsoft Azure,Cloud Computing,Search & Data Management
+azure sql data warehouse,1,Microsoft Azure,Cloud Computing,Search & Data Management
+data analyst and capacity and visualization and sql and azure,1,Microsoft Azure,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1,Microsoft Azure,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Microsoft Azure,Cloud Computing,Search & Data Management
+h2o or azure ml,1,Microsoft Azure,Cloud Computing,Search & Data Management
+microsoft azure,1,Microsoft Azure,Cloud Computing,Search & Data Management
+atlassian,1,Atlassian,Collaboration tools,Collaboration
+bs/ms in computer science,1,Bachelors,Credential,Credential
+cfa,1,CFA,Credential,Credential
+cfa a plus,1,CFA,Credential,Credential
+ms in statistics or analytics,1,Master's Degree,Credential,Credential
+ms/phd,1,Master's Degree,Credential,Credential
+bs/ms in computer science,1,Master's Degree,Credential,Credential
+masters degree with 5 years of experience in creating machine learning pipelines,1,Master's Degree,Credential,Credential
+ms/phd,1,PhD,Credential,Credential
+phd required,1,PhD,Credential,Credential
+senior data scientist with phd,1,PhD,Credential,Credential
+azure sql data warehouse,1,Data Warehouse,Database Technology,Search & Data Management
+data warehouse reporting,1,Data Warehouse,Database Technology,Search & Data Management
+data warehousing,1,Data Warehouse,Database Technology,Search & Data Management
+datawarehouse,1,Data Warehouse,Database Technology,Search & Data Management
+data scientist machine learning statistical modeling database data python r cloud,1,Database,Database Technology,Search & Data Management
+database concepts and sql,1,Database,Database Technology,Search & Data Management
+apache hadoop,1,Hadoop,Database Technology,Search & Data Management
+apache spark or kubernetes or hortonworks or hadoop,1,Hadoop,Database Technology,Search & Data Management
+big data/hadoop,1,Hadoop,Database Technology,Search & Data Management
+hadoop - data,1,Hadoop,Database Technology,Search & Data Management
+hadoop hbase,1,Hadoop,Database Technology,Search & Data Management
+pyspark hadoop,1,Hadoop,Database Technology,Search & Data Management
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Hadoop,Database Technology,Search & Data Management
+hadoop hbase,1,HBase,Database Technology,Search & Data Management
+hdfs/ hive/ impala,1,HDFS,Database Technology,Search & Data Management
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Hive,Database Technology,Search & Data Management
+hdfs/ hive/ impala,1,Hive,Database Technology,Search & Data Management
+hive - python,1,Hive,Database Technology,Search & Data Management
+apache spark or kubernetes or hortonworks or hadoop,1,Hortonworks,Database Technology,Search & Data Management
+apache spark or kubernetes or hortonworks or hadoop,1,Kubernetes,Database Technology,Search & Data Management
+mongo,1,MongoDB,Database Technology,Search & Data Management
+nosql (dynamodb/cassandra/mongodb),1,MongoDB,Database Technology,Search & Data Management
+oracle marketing suite,1,Oracle,Database Technology,Search & Data Management
+oracle marketing suite - marketing technologies,1,Oracle,Database Technology,Search & Data Management
+pig - python,1,Pig,Database Technology,Search & Data Management
+postgres,1,PostgreSQL,Database Technology,Search & Data Management
+postgres) kafka,1,PostgreSQL,Database Technology,Search & Data Management
+redshift - data scientist,1,Redshift,Database Technology,Search & Data Management
+redshift is a plus.,1,Redshift,Database Technology,Search & Data Management
+redshift; s3,1,Redshift,Database Technology,Search & Data Management
+rdbms,1,Relational Database Management Systems,Database Technology,Search & Data Management
+rdbms - python,1,Relational Database Management Systems,Database Technology,Search & Data Management
+rdms,1,Relational Database Management Systems,Database Technology,Search & Data Management
+soap - ruby on rails,1,SOAP,Database Technology,Search & Data Management
+apache spark or kubernetes or hortonworks or hadoop,1,Spark,Database Technology,Search & Data Management
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Spark,Database Technology,Search & Data Management
+golang - spark,1,Spark,Database Technology,Search & Data Management
+machine learning tools like spark mlib,1,Spark,Database Technology,Search & Data Management
+or python and experience with languages/ frameworks used in ml & analytics: spark,1,Spark,Database Technology,Search & Data Management
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Spark,Database Technology,Search & Data Management
+spark - big data,1,Spark,Database Technology,Search & Data Management
+spark - machine learning,1,Spark,Database Technology,Search & Data Management
+spark or alteryx,1,Spark,Database Technology,Search & Data Management
+sparks,1,Spark,Database Technology,Search & Data Management
+azure sql data warehouse,1,SQL,Database Technology,Programming Languages & Distributions
+business analyst and data and sql,1,SQL,Database Technology,Programming Languages & Distributions
+data analyst and capacity and visualization and sql and azure,1,SQL,Database Technology,Programming Languages & Distributions
+database concepts and sql,1,SQL,Database Technology,Programming Languages & Distributions
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,SQL,Database Technology,Programming Languages & Distributions
+ibm db2 and sql server,1,SQL,Database Technology,Programming Languages & Distributions
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,SQL,Database Technology,Programming Languages & Distributions
+machine learning python sql / nosql databases,1,SQL,Database Technology,Programming Languages & Distributions
+ms sql,1,SQL,Database Technology,Programming Languages & Distributions
+pl/sql,1,SQL,Database Technology,Programming Languages & Distributions
+python r scala sql,1,SQL,Database Technology,Programming Languages & Distributions
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,SQL,Database Technology,Programming Languages & Distributions
+software engineer - data engineer - sql,1,SQL,Database Technology,Programming Languages & Distributions
+sql - full stack,1,SQL,Database Technology,Programming Languages & Distributions
+sql (oracle,1,SQL,Database Technology,Programming Languages & Distributions
+sql and data visualization software,1,SQL,Database Technology,Programming Languages & Distributions
+sql and relational databases,1,SQL,Database Technology,Programming Languages & Distributions
+sql data engineer,1,SQL,Database Technology,Programming Languages & Distributions
+sql python etl,1,SQL,Database Technology,Programming Languages & Distributions
+sql server; unix; x12; epic; cigo; caboodle,1,SQL,Database Technology,Programming Languages & Distributions
+accumulo,1,Accumulo,Database Technology,Search & Data Management
+bigtable,1,BigTable,Database Technology,Search & Data Management
+nosql (dynamodb/cassandra/mongodb),1,Cassandra,Database Technology,Search & Data Management
+couchbase programming,1,Couchbase,Database Technology,Search & Data Management
+ibm db2 and sql server,1,DB2,Database Technology,Search & Data Management
+nosql (dynamodb/cassandra/mongodb),1,DynamoDB,Database Technology,Search & Data Management
+kdb,1,KDB,Database Technology,Search & Data Management
+netezza,1,Netezza,Database Technology,Search & Data Management
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,NoSQL,Database Technology,Search & Data Management
+machine learning python sql / nosql databases,1,NoSQL,Database Technology,Search & Data Management
+nosql (dynamodb/cassandra/mongodb),1,NoSQL,Database Technology,Search & Data Management
+computational physics - data science,1,Physics,Database Technology,Machine Learning & Stats
+data analysis - sql server,1,SQL Server,Database Technology,Search & Data Management
+ci/cd/ci-cd/continuous integration/continuous deployment/jenkins,1,Jenkins,Development Tool,Programming Languages & Distributions
+jenkins,1,Jenkins,Development Tool,Programming Languages & Distributions
+business analyst data scientist r python jira github tableau powerbi statistics,1,Jira,Development Tool,Collaboration
+ci/cd/ci-cd/continuous integration/continuous deployment/jenkins,1,Continuous Deployment,Development Tool,Programming Languages & Distributions
+ci/cd/ci-cd/continuous integration/continuous deployment/jenkins,1,Continuous Integration,Development Tool,Programming Languages & Distributions
+celery,1,Celery,Distributed System,Programming Languages & Distributions
+celery - java,1,Celery,Distributed System,Programming Languages & Distributions
+airline contracting,1,Airlines,Domain Expertise,Domain Expertise
+airline contracting - direct analytics,1,Airlines,Domain Expertise,Domain Expertise
+applied mathematics,1,Applied Mathematics,Domain Expertise,Domain Expertise
+architect,1,Architecture,Domain Expertise,Domain Expertise
+asset mgmt/electronic trading,1,Asset Management,Domain Expertise,Domain Expertise
+astronomy,1,Astronomy,Domain Expertise,Domain Expertise
+bioinformatics,1,Bioinformatics,Domain Expertise,Domain Expertise
+biology,1,Biology,Domain Expertise,Domain Expertise
+biomedical,1,Biomedical,Domain Expertise,Domain Expertise
+biomedical - data science,1,Biomedical,Domain Expertise,Domain Expertise
+biostatistics - r,1,Biostatistics,Domain Expertise,Domain Expertise
+business concepts,1,Business,Domain Expertise,Domain Expertise
+knowledge of a variety of machine learning and statistical modeling techniques in a business setting,1,Business,Domain Expertise,Domain Expertise
+business services general,1,Business,Domain Expertise,Domain Expertise
+claims data,1,Claims,Domain Expertise,Domain Expertise
+computer science,1,Computer Science,Domain Expertise,Domain Expertise
+dynamic pricing,1,Dynamic Pricing,Domain Expertise,Domain Expertise
+machine learning - dynamic pricing,1,Dynamic Pricing,Domain Expertise,Domain Expertise
+ecommerce,1,eCommerce,Domain Expertise,Domain Expertise
+asset mgmt/electronic trading,1,Electronic Trading,Domain Expertise,Domain Expertise
+finance,1,Finance,Domain Expertise,Domain Expertise
+financial,1,Finance,Domain Expertise,Domain Expertise
+financial data experience,1,Finance,Domain Expertise,Domain Expertise
+financial experience,1,Finance,Domain Expertise,Domain Expertise
+financial industry,1,Finance,Domain Expertise,Domain Expertise
+fintech,1,FinTech,Domain Expertise,Domain Expertise
+fintech exp,1,FinTech,Domain Expertise,Domain Expertise
+machine learning and supervised machine learning to cybersecurity or fraud detectionworking knowledge of security detection tools,1,Fraud Detection,Domain Expertise,Domain Expertise
+genetics,1,Genetics,Domain Expertise,Domain Expertise
+healthcare,1,Healthcare,Domain Expertise,Domain Expertise
+healthcare analytics,1,Healthcare,Domain Expertise,Domain Expertise
+insurance,1,Insurance,Domain Expertise,Domain Expertise
+life science,1,Life Science,Domain Expertise,Domain Expertise
+life science - data science,1,Life Science,Domain Expertise,Domain Expertise
+life-sciences,1,Life Science,Domain Expertise,Domain Expertise
+digital marketing,1,Marketing,Domain Expertise,Domain Expertise
+full funnel analytics - marketing analytics,1,Marketing,Domain Expertise,Domain Expertise
+marketing analysis,1,Marketing,Domain Expertise,Domain Expertise
+marketing analytics,1,Marketing,Domain Expertise,Domain Expertise
+marketing data scientist/analyst,1,Marketing,Domain Expertise,Domain Expertise
+marketing technologies,1,Marketing,Domain Expertise,Domain Expertise
+operations,1,Operations,Domain Expertise,Domain Expertise
+operations - r,1,Operations,Domain Expertise,Domain Expertise
+operations analysis,1,Operations,Domain Expertise,Domain Expertise
+computational physics,1,Physics,Domain Expertise,Domain Expertise
+and behavioral modeling and simulation for bfs/retail,1,Retail,Domain Expertise,Domain Expertise
+telecom,1,Telecom,Domain Expertise,Domain Expertise
+telecommunications,1,Telecom,Domain Expertise,Domain Expertise
+expert level understanding of the umls,1,Unified Medical Language System,Domain Expertise,Domain Expertise
+small business,1,Small Business,Domain Expertise,Domain Expertise
+robotics,1,Robotics,Domain Expertise,Domain Expertise
+agile work environment,1,Agile,Environment,Environment
+agile work environment - data mining,1,Agile,Environment,Environment
+chef,1,Exclude,Exclude,needs input
+comprehend,1,Exclude,Exclude,needs input
+full relocation package,1,Exclude,Exclude,needs input
+n/a,1,Exclude,Exclude,needs input
+or other scripting languages,1,Exclude,Exclude,needs input
+rational,1,Exclude,Exclude,needs input
+see job description,1,Exclude,Exclude,needs input
+sme in statistics,1,Exclude,Exclude,needs input
+including distributions,1,Exclude,Exclude,needs input
+(machine learning ) and (artificial intelligence ) and (rafa ),1,Artificial Intelligence,General Skill,Machine Learning & Stats
+ai - r,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+ai & cognitive technology,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+ai and ml models,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+ai.ml,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+ai/ml,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+artificial-intelligence,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+data science/ai/machine learning,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+datarobot for quick implementation of ai/ml,1,Artificial Intelligence,General Skill,Machine Learning & Stats
+big data ecosystem,1,Big Data,General Skill,Search & Data Management
+big data management tools i.e. informatica bdm/idl/eic/idq,1,Big Data,General Skill,Search & Data Management
+big data science,1,Big Data,General Skill,Search & Data Management
+big data storage,1,Big Data,General Skill,Search & Data Management
+big data/hadoop,1,Big Data,General Skill,Search & Data Management
+distributed computing - big data,1,Big Data,General Skill,Search & Data Management
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Big Data,General Skill,Search & Data Management
+bi dashboards,1,Business Intelligence,General Skill,Business Intelligence & Reporting
+bi engineer/data scientist,1,Business Intelligence,General Skill,Business Intelligence & Reporting
+business intelligence engineer iii,1,Business Intelligence,General Skill,Business Intelligence & Reporting
+with thorough knowledge of business intelligence and analytics,1,Business Intelligence,General Skill,Business Intelligence & Reporting
+computer vision,1,Computer Vision,General Skill,needs input
+computer vision or developing software libraries that abstract/encapsulate custom hardware devices.,1,Computer Vision,General Skill,needs input
+open source ml & dl frameworks - computer vision,1,Computer Vision,General Skill,needs input
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Data Analysis,General Skill,General Skill
+analysis service (ssas),1,Data Analysis,General Skill,General Skill
+analytical techniques,1,Data Analysis,General Skill,General Skill
+cloud/analytics,1,Data Analysis,General Skill,General Skill
+data analysis - sql server,1,Data Analysis,General Skill,General Skill
+data mining and statistical analysis,1,Data Analysis,General Skill,General Skill
+data science analytics networks machine learning tensorflow,1,Data Analysis,General Skill,General Skill
+digital analytics,1,Data Analysis,General Skill,General Skill
+direct analytics,1,Data Analysis,General Skill,General Skill
+trend analysis,1,Data Analysis,General Skill,General Skill
+with thorough knowledge of business intelligence and analytics,1,Data Analysis,General Skill,General Skill
+data design,1,Data Design,General Skill,Search & Data Management
+creating large datasets,1,Data Engineering,General Skill,Search & Data Management
+data management systems,1,Data Management,General Skill,Search & Data Management
+data manipulation/wrangling,1,Data Manipulation,General Skill,Search & Data Management
+etc.) to manipulate data and draw insights from large data sets.,1,Data Manipulation,General Skill,Search & Data Management
+transformation,1,Data Manipulation,General Skill,Search & Data Management
+wrangle,1,Data Manipulation,General Skill,Search & Data Management
+agile work environment - data mining,1,Data Mining,General Skill,Search & Data Management
+data mining and statistical analysis,1,Data Mining,General Skill,Search & Data Management
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Data Mining,General Skill,Search & Data Management
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Data Modeling,General Skill,Machine Learning & Stats
+conceptual and logical data modeling,1,Data Modeling,General Skill,Machine Learning & Stats
+data modeling and hypothesis generation,1,Data Modeling,General Skill,Machine Learning & Stats
+data modelling,1,Data Modeling,General Skill,Machine Learning & Stats
+reporting&etl,1,Extract Transform Load,General Skill,Search & Data Management
+etl and big data platforms,1,Extract Transform Load,General Skill,Search & Data Management
+etl development,1,Extract Transform Load,General Skill,Search & Data Management
+etl tools knowledge is required.,1,Extract Transform Load,General Skill,Search & Data Management
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Extract Transform Load,General Skill,Search & Data Management
+mathematical models,1,Mathematics,General Skill,Machine Learning & Stats
+1. python 2. nlp 3. deep learning,1,Natural Language Processing,General Skill,Machine Learning & Stats
+at least 2 to 4 years professional experience in nlp,1,Natural Language Processing,General Skill,Machine Learning & Stats
+natural language,1,Natural Language Processing,General Skill,Machine Learning & Stats
+nlp and text analytics,1,Natural Language Processing,General Skill,Machine Learning & Stats
+nlp(natural language processing) git r matlab,1,Natural Language Processing,General Skill,Machine Learning & Stats
+nltk,1,Natural Language Processing,General Skill,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+predictive modelling,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+predictive-analytics,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+simulation development and/or predictive analytics,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+building predictive models,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+building predictive models - r,1,Predictive Analytics/Models,General Skill,Machine Learning & Stats
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Price Optimization,General Skill,Machine Learning & Stats
+quantitative business problem solving,1,Problem Solving,General Skill,Machine Learning & Stats
+quantitative analyst,1,Quantitative Analysis/Modeling,General Skill,Machine Learning & Stats
+quantitative researcher-equities,1,Quantitative Analysis/Modeling,General Skill,Machine Learning & Stats
+deep learning and machine learning and research and statistical models and (python,1,Research,General Skill,General Skill
+and behavioral modeling and simulation for bfs/retail,1,Simulation,General Skill,Machine Learning & Stats
+simulation development and/or predictive analytics,1,Simulation,General Skill,Machine Learning & Stats
+stochastic simulation,1,Simulation,General Skill,Machine Learning & Stats
+knowledge of a variety of machine learning and statistical modeling techniques in a business setting,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+machine learning and statistical modeling techniques,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+machine learning and tensorflow and statistical model,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+business analyst data scientist r python jira github tableau powerbi statistics,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+data science; statistics,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+data scientist machine learning statistical modeling database data python r cloud,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+data scientist machine learning statistics r python c# java scala,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+deep learning and machine learning and research and statistical models and (python,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+o advanced applied statistics skills,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical analysis and data driven insights,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical analysis/modeling,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical computer language,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical testing,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical/machine learning algorithms,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistical/machine learning algorithms - machine learning,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistics or data mining disciplines5+ years experience as a data scientist (or equivalent role) applying statistical models,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistics or data modeling,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+statistics/data modeling,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+stats,1,Statistics/Statistical Modeling,General Skill,Machine Learning & Stats
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1,Visualization,General Skill,Data Visualization & Reporting
+algorithms - machine learning,1,Algorithm,Machine Learning,Machine Learning & Stats
+clustering,1,Clustering,Machine Learning,Machine Learning & Stats
+cnn,1,CNN,Machine Learning,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,DataRobot,Machine Learning,Machine Learning & Stats
+datarobot,1,DataRobot,Machine Learning,Machine Learning & Stats
+datarobot for quick implementation of ai/ml,1,DataRobot,Machine Learning,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Decision Tree,Machine Learning,Machine Learning & Stats
+1. python 2. nlp 3. deep learning,1,Deep Learning,Machine Learning,Machine Learning & Stats
+deep learning and machine learning and research and statistical models and (python,1,Deep Learning,Machine Learning,Machine Learning & Stats
+semi-supervised (label propagation),1,Labeling,Machine Learning,Machine Learning & Stats
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Machine Learning,Machine Learning,Machine Learning & Stats
+(machine learning ) and (artificial intelligence ) and (rafa ),1,Machine Learning,Machine Learning,Machine Learning & Stats
+ai and ml models,1,Machine Learning,Machine Learning,Machine Learning & Stats
+ai.ml,1,Machine Learning,Machine Learning,Machine Learning & Stats
+ai/ml,1,Machine Learning,Machine Learning,Machine Learning & Stats
+algorithms - machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+automation - machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+azure machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data science analytics networks machine learning tensorflow,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data science/ai/machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data scientist machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data scientist machine learning statistical modeling database data python r cloud,1,Machine Learning,Machine Learning,Machine Learning & Stats
+data scientist machine learning statistics r python c# java scala,1,Machine Learning,Machine Learning,Machine Learning & Stats
+datarobot for quick implementation of ai/ml,1,Machine Learning,Machine Learning,Machine Learning & Stats
+deep learning and machine learning and research and statistical models and (python,1,Machine Learning,Machine Learning,Machine Learning & Stats
+experience with machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+h2o or azure ml,1,Machine Learning,Machine Learning,Machine Learning & Stats
+knowledge of a variety of machine learning and statistical modeling techniques in a business setting,1,Machine Learning,Machine Learning,Machine Learning & Stats
+mach,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine leaning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning - data scientist,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning - dynamic pricing,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning - python,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning (aml)python,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning (ml),1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning and statistical modeling techniques,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning and supervised machine learning to cybersecurity or fraud detectionworking knowledge of security detection tools,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning and tensorflow and statistical model,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning jda software,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning python sql / nosql databases,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning tools like spark mlib,1,Machine Learning,Machine Learning,Machine Learning & Stats
+machine learning/data science/data scientist,1,Machine Learning,Machine Learning,Machine Learning & Stats
+masters degree with 5 years of experience in creating machine learning pipelines,1,Machine Learning,Machine Learning,Machine Learning & Stats
+modeling - python,1,Machine Learning,Machine Learning,Machine Learning & Stats
+modeling-and-simulation,1,Machine Learning,Machine Learning,Machine Learning & Stats
+neural,1,Machine Learning,Machine Learning,Machine Learning & Stats
+neural network.,1,Machine Learning,Machine Learning,Machine Learning & Stats
+neuro networks,1,Machine Learning,Machine Learning,Machine Learning & Stats
+open source ml & dl frameworks,1,Machine Learning,Machine Learning,Machine Learning & Stats
+open source ml & dl frameworks - computer vision,1,Machine Learning,Machine Learning,Machine Learning & Stats
+or python and experience with languages/ frameworks used in ml & analytics: spark,1,Machine Learning,Machine Learning,Machine Learning & Stats
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Machine Learning,Machine Learning,Machine Learning & Stats
+python - machine learning,1,Machine Learning,Machine Learning,Machine Learning & Stats
+python software developer background; ml; data science; system programming; webservices,1,Machine Learning,Machine Learning,Machine Learning & Stats
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Machine Learning,Machine Learning,Machine Learning & Stats
+random forest,1,Machine Learning,Machine Learning,Machine Learning & Stats
+random forests,1,Machine Learning,Machine Learning,Machine Learning & Stats
+such as k-nn,1,Machine Learning,Machine Learning,Machine Learning & Stats
+unsupervised (clustering),1,Machine Learning,Machine Learning,Machine Learning & Stats
+mahout,1,Mahout,Machine Learning,Machine Learning & Stats
+mllib,1,MLlib,Machine Learning,Machine Learning & Stats
+naive bayes classifier,1,Naive Bayes Classifier,Machine Learning,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Neural Networks,Machine Learning,Machine Learning & Stats
+numerical optimization,1,Numerical Optimization,Mathematical ,Machine Learning & Stats
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Generalized Linear Model,Mathematical ,Machine Learning & Stats
+cisco,1,Cisco,Network,Search & Data Management
+anaconda,1,Anaconda,Platform,Programming Languages & Distributions
+anaconda - python,1,Anaconda,Platform,Programming Languages & Distributions
+modeanalytics,1,Mode Analytics,Platform,Data Visualization & Reporting
+business analyst,1,Business Analyst,Position,Position
+business analyst and data and sql,1,Business Analyst,Position,Position
+business analyst data scientist r python jira github tableau powerbi statistics,1,Business Analyst,Position,Position
+chief data scientist,1,Chief Data Scientist,Position,Position
+data analyst and capacity and visualization and sql and azure,1,Data Analyst,Position,Position
+data scientists and data analysts with u.s. citizenship required and able to obtain a top secret or secret clearance,1,Data Analyst,Position,Position
+data architect - r,1,Data Architect,Position,Position
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Data Engineer,Position,Position
+software engineer - data engineer - sql,1,Data Engineer,Position,Position
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Data Scientist,Position,Position
+azure - data science,1,Data Scientist,Position,Position
+business analyst data scientist r python jira github tableau powerbi statistics,1,Data Scientist,Position,Position
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Data Scientist,Position,Position
+data scientist level 1 experience with data sets,1,Data Scientist,Position,Position
+data scientist machine learning,1,Data Scientist,Position,Position
+data scientist machine learning statistical modeling database data python r cloud,1,Data Scientist,Position,Position
+data scientist machine learning statistics r python c# java scala,1,Data Scientist,Position,Position
+data scientists and data analysts with u.s. citizenship required and able to obtain a top secret or secret clearance,1,Data Scientist,Position,Position
+machine learning - data scientist,1,Data Scientist,Position,Position
+machine learning/data science/data scientist,1,Data Scientist,Position,Position
+marketing data scientist/analyst,1,Data Scientist,Position,Position
+dba,1,Database Administrator,Position,Position
+business intelligence engineer iii,1,Engineer,Position,Position
+engineer,1,Engineer,Position,Position
+enterprise architect,1,Enterprise Architect,Position,Position
+hiin analyst,1,Hospital Improvement Innovation Network Analyst,Position,Position
+jr data scientist,1,Jr. Data Scientist,Position,Position
+lead data scientist - high growth startup - nyc - 160k+,1,Lead Data Scientist,Position,Position
+master data management analyst,1,Master Data Management Analyst,Position,Position
+mdm,1,Master Data Management Analyst,Position,Position
+mdm analyst,1,Master Data Management Analyst,Position,Position
+senior data scientist with phd,1,Senior Data Scientist,Position,Position
+senior data scientist,1,Senior Data Scientist,Position,Position
+sr data scientist,1,Senior Data Scientist,Position,Position
+senior manager,1,Senior Manager,Position,Position
+programmer,1,Software Developer,Position,Position
+python software developer background; ml; data science; system programming; webservices,1,Software Developer,Position,Position
+software engineer - data engineer - sql,1,Software Engineer,Position,Position
+web developer,1,Web Developer,Position,Position
+c/c++,1,C,Programming Language,Programming Languages & Distributions
+c/c++ - data scientist,1,C,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistics r python c# java scala,1,C#,Programming Language,Programming Languages & Distributions
+python/java/c#,1,C#,Programming Language,Programming Languages & Distributions
+c/c++,1,C++,Programming Language,Programming Languages & Distributions
+c/c++ - data scientist,1,C++,Programming Language,Programming Languages & Distributions
+java or c++,1,C++,Programming Language,Programming Languages & Distributions
+scala or c++),1,C++,Programming Language,Programming Languages & Distributions
+caffe,1,Caffe,Programming Language,Programming Languages & Distributions
+cgi,1,CGI,Programming Language,Programming Languages & Distributions
+golang - spark,1,Go,Programming Language,Programming Languages & Distributions
+celery - java,1,Java,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistics r python c# java scala,1,Java,Programming Language,Programming Languages & Distributions
+development(java),1,Java,Programming Language,Programming Languages & Distributions
+java or c++,1,Java,Programming Language,Programming Languages & Distributions
+one modern programming language: java,1,Java,Programming Language,Programming Languages & Distributions
+python/java/c#,1,Java,Programming Language,Programming Languages & Distributions
+scala or javaexperience driving research and early stage projects to production implementationcreative approach to problem solving and using leading edge tools to build innovative solutionsteam player with strong desire to learn,1,Java,Programming Language,Programming Languages & Distributions
+jquery/javascript programming (including scripting / coding),1,jQuery,Programming Language,Programming Languages & Distributions
+node,1,Node.js,Programming Language,Programming Languages & Distributions
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Python,Programming Language,Conferences
+1. python 2. nlp 3. deep learning,1,Python,Programming Language,Conferences
+3+ years experience doing data science with r and python in a professional,1,Python,Programming Language,Conferences
+anaconda - python,1,Python,Programming Language,Conferences
+business analyst data scientist r python jira github tableau powerbi statistics,1,Python,Programming Language,Conferences
+crm - python,1,Python,Programming Language,Conferences
+data science - python,1,Python,Programming Language,Conferences
+data science and implementations in python,1,Python,Programming Language,Conferences
+data science python,1,Python,Programming Language,Conferences
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Python,Programming Language,Conferences
+data scientist machine learning statistical modeling database data python r cloud,1,Python,Programming Language,Conferences
+data scientist machine learning statistics r python c# java scala,1,Python,Programming Language,Conferences
+deep learning and machine learning and research and statistical models and (python,1,Python,Programming Language,Conferences
+image analytics - python,1,Python,Programming Language,Conferences
+including python,1,Python,Programming Language,Conferences
+machine learning - python,1,Python,Programming Language,Conferences
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Python,Programming Language,Conferences
+machine learning (aml)python,1,Python,Programming Language,Conferences
+machine learning python sql / nosql databases,1,Python,Programming Language,Conferences
+modeling - python,1,Python,Programming Language,Conferences
+must have skills: data science python sas,1,Python,Programming Language,Conferences
+or python and experience with languages/ frameworks used in ml & analytics: spark,1,Python,Programming Language,Conferences
+pig - python,1,Python,Programming Language,Conferences
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Python,Programming Language,Conferences
+python - aws,1,Python,Programming Language,Conferences
+python - data science,1,Python,Programming Language,Conferences
+python - machine learning,1,Python,Programming Language,Conferences
+python (including numpy,1,Python,Programming Language,Conferences
+python and (,1,Python,Programming Language,Conferences
+python r scala sql,1,Python,Programming Language,Conferences
+python software developer background; ml; data science; system programming; webservices,1,Python,Programming Language,Conferences
+python.,1,Python,Programming Language,Conferences
+python/java/c#,1,Python,Programming Language,Conferences
+python/r,1,Python,Programming Language,Conferences
+python/r/sas,1,Python,Programming Language,Conferences
+pyton,1,Python,Programming Language,Conferences
+r and/or python,1,Python,Programming Language,Conferences
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Python,Programming Language,Conferences
+r/python,1,Python,Programming Language,Conferences
+r/python programming,1,Python,Programming Language,Conferences
+rdbms - python,1,Python,Programming Language,Conferences
+sas or pytho,1,Python,Programming Language,Conferences
+sas or python,1,Python,Programming Language,Conferences
+wps or spss or python prefer: sql server,1,Python,Programming Language,Conferences
+pytorch,1,PyTorch,Programming Language,Programming Languages & Distributions
+3+ years experience doing data science with r and python in a professional,1,R,Programming Language,Programming Languages & Distributions
+ai - r,1,R,Programming Language,Programming Languages & Distributions
+biostatistics - r,1,R,Programming Language,Programming Languages & Distributions
+building predictive models - r,1,R,Programming Language,Programming Languages & Distributions
+business analyst data scientist r python jira github tableau powerbi statistics,1,R,Programming Language,Programming Languages & Distributions
+data architect - r,1,R,Programming Language,Programming Languages & Distributions
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,R,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistical modeling database data python r cloud,1,R,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistics r python c# java scala,1,R,Programming Language,Programming Languages & Distributions
+experience using statistical computer languages (r,1,R,Programming Language,Programming Languages & Distributions
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,R,Programming Language,Programming Languages & Distributions
+operations - r,1,R,Programming Language,Programming Languages & Distributions
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,R,Programming Language,Programming Languages & Distributions
+python r scala sql,1,R,Programming Language,Programming Languages & Distributions
+python/r,1,R,Programming Language,Programming Languages & Distributions
+python/r/sas,1,R,Programming Language,Programming Languages & Distributions
+r and/or python,1,R,Programming Language,Programming Languages & Distributions
+r etc.,1,R,Programming Language,Programming Languages & Distributions
+r programming,1,R,Programming Language,Programming Languages & Distributions
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,R,Programming Language,Programming Languages & Distributions
+r/python,1,R,Programming Language,Programming Languages & Distributions
+r/python programming,1,R,Programming Language,Programming Languages & Distributions
+ruby on rails,1,Ruby,Programming Language,Programming Languages & Distributions
+ruby on rails / ror / ruby / rails,1,Ruby,Programming Language,Programming Languages & Distributions
+soap - ruby on rails,1,Ruby,Programming Language,Programming Languages & Distributions
+soap - ruby on rails / ror / ruby / rails,1,Ruby,Programming Language,Programming Languages & Distributions
+soap - ruby on rails / ror / ruby / rails,1,Ruby,Programming Language,Programming Languages & Distributions
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,SAS,Programming Language,Programming Languages & Distributions
+ibm spss and sas tools,1,SAS,Programming Language,Programming Languages & Distributions
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,SAS,Programming Language,Programming Languages & Distributions
+must have skills: data science python sas,1,SAS,Programming Language,Programming Languages & Distributions
+python/r/sas,1,SAS,Programming Language,Programming Languages & Distributions
+sas or pytho,1,SAS,Programming Language,Programming Languages & Distributions
+sas or python,1,SAS,Programming Language,Programming Languages & Distributions
+and scala,1,Scala,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistics r python c# java scala,1,Scala,Programming Language,Programming Languages & Distributions
+python r scala sql,1,Scala,Programming Language,Programming Languages & Distributions
+scala or c++),1,Scala,Programming Language,Programming Languages & Distributions
+scala or javaexperience driving research and early stage projects to production implementationcreative approach to problem solving and using leading edge tools to build innovative solutionsteam player with strong desire to learn,1,Scala,Programming Language,Programming Languages & Distributions
+scalanltk,1,Scala,Programming Language,Programming Languages & Distributions
+ibm spss and sas tools,1,SPSS,Programming Language,Programming Languages & Distributions
+spss or even r,1,SPSS,Programming Language,Programming Languages & Distributions
+wps or spss or python prefer: sql server,1,SPSS,Programming Language,Programming Languages & Distributions
+mathematica,1,Mathematica,Programming Language (Math/Stat),Machine Learning & Stats
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,MATLAB,Programming Language (Math/Stat),Programming Languages & Distributions
+bitbucket,1,BitBucket,Programming Tool,Collaboration
+team setting (including git & unit testing),1,Git,Programming Tool,Collaboration
+business analyst data scientist r python jira github tableau powerbi statistics,1,GitHub,Programming Tool,Collaboration
+r studio,1,R Studio,Programming Tool,Collaboration
+rapidminer,1,RapidMiner,Programming Tool,Machine Learning & Stats
+bash,1,Bash,Scripting,Programming Languages & Distributions
+bash/shell,1,Bash,Scripting,Programming Languages & Distributions
+change management,1,Change Management,Soft Skill,Soft Skill
+ad hoc reporting,1,Communication,Soft Skill,Soft Skill
+erp,1,Enterprise Resource Planing,Soft Skill,Soft Skill
+9+ years of demonstrated experience leading teams,1,Leadership,Soft Skill,Soft Skill
+administration,1,Leadership,Soft Skill,Soft Skill
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Onboarding,Soft Skill,Soft Skill
+organization transformation,1,Organization Transformation,Soft Skill,Soft Skill
+qa,1,Quality Assurance,Soft Skill,Soft Skill
+quality,1,Quality Assurance,Soft Skill,Soft Skill
+quality assurance,1,Quality Assurance,Soft Skill,Soft Skill
+solutions implementation,1,Solutions Implementation,Soft Skill,Soft Skill
+and/or business strategy developm,1,Strategy,Soft Skill,Soft Skill
+strategic planning,1,Strategy,Soft Skill,Soft Skill
+strategy,1,Strategy,Soft Skill,Soft Skill
+prior teaching experience (not essential),1,Teaching,Soft Skill,Soft Skill
+prior teaching experience (not essential) - data science,1,Teaching,Soft Skill,Soft Skill
+teaching technical concepts,1,Teaching,Soft Skill,Soft Skill
+teaching technical concepts - data science,1,Teaching,Soft Skill,Soft Skill
+adobe,1,Adobe,Software,Data Visualization & Reporting
+bayesian-statistics,1,Bayesian,Statistical,Machine Learning & Stats
+logistic regression,1,Logistic Regression,Statistics,Machine Learning & Stats
+docker,1,Docker,Virtualization,Virtualization
+bi dashboards,1,Dashboards,Visualization,Data Visualization & Reporting
+scikit-learn data visualization (matplotlib,1,Matplotlib,Visualization,Data Visualization & Reporting
+qlikview,1,Qlikview,Visualization,Data Visualization & Reporting
+business analyst data scientist r python jira github tableau powerbi statistics,1,Tableau,Visualization,Data Visualization & Reporting
+etc) and analysis tools ( tableau,1,Tableau,Visualization,Data Visualization & Reporting
+sql tableau marketing analysis,1,Tableau,Visualization,Data Visualization & Reporting
+tableau/ raw /chart.js/data visualization,1,Tableau,Visualization,Data Visualization & Reporting
+tableu,1,Tableau,Visualization,Data Visualization & Reporting
+and supervised algorithms.,1,Algorithm,Machine Learning,Machine Learning & Stats
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Analytics,,Data Visualization & Reporting
+ansible,1,Ansible,Automation tools,needs input
+and application development,1,Application Development,General Skill,needs input
+automation - machine learning,1,Automation,General Skill,Search & Data Management
+backend coding,1,Backend Coding,General Skill,Search & Data Management
+and behavioral modeling and simulation for bfs/retail,1,Behavioral Modeling,Domain Expertise,needs input
+benchmark,1,Benchmark,,needs input
+blueprint,1,Blueprint,,needs input
+data analyst and capacity and visualization and sql and azure,1,Capacity,,needs input
+chaid,1,CHAID,Machine Learning,Machine Learning & Stats
+cloudbase,1,CloudBase,Cloud Computing,Search & Data Management
+cloundera,1,Cloudera,Cloud Computing,Search & Data Management
+ai & cognitive technology,1,Cognitive Technology,AI,Machine Learning & Stats
+computer,1,Computer,,needs input
+computer engineering,1,Computer Engineering,,needs input
+cplex,1,CPLEX,Optimization tools,needs input
+crm - python,1,CRM,Domain Knowledge,needs input
+customer service,1,Customer Service,Domain Knowledge,needs input
+business analyst and data and sql,1,Data,,needs input
+data scientist machine learning statistical modeling database data python r cloud,1,Data,,needs input
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Data,Database Technology,Search & Data Management
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Data Pipelines,Data Engineering,Search & Data Management
+data pipelines,1,Data Pipelines,Data Engineering,Search & Data Management
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Data Pipelines,Data Engineering,Search & Data Management
+biomedical - data science,1,Data Science,,needs input
+data science - python,1,Python,,Conferences
+data science analytics networks machine learning tensorflow,1,Machine Learning,,Machine Learning & Stats
+data science and implementations in python,1,Python,,Conferences
+data science python,1,Python,,Conferences
+data science; statistics,1,Statistics,,Machine Learning & Stats
+data science/ai/machine learning,1,Machine Learning,,Machine Learning & Stats
+data sciences,1,Data Science,,needs input
+data-science,1,Data Science,,needs input
+life science - data science,1,Data Science,,needs input
+machine learning/data science/data scientist,1,Data Science,,needs input
+must have skills: data science python sas,1,Data Science,,needs input
+prior teaching experience (not essential) - data science,1,Data Science,,needs input
+python - data science,1,Data Science,,Machine Learning & Stats
+python software developer background; ml; data science; system programming; webservices,1,Data Science,,needs input
+teaching technical concepts - data science,1,Data Science,,needs input
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Data Sets,,needs input
+data streaming,1,Data Streaming,,needs input
+dax,1,DAX,,needs input
+etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,Design,,needs input
+development(java),1,Development,,Programming Languages & Distributions
+etl development,1,Development,,Search & Data Management
+devops,1,DevOps,,needs input
+distributed computing,1,Distributed Computing Environment,Database Technology,Search & Data Management
+distributed computing - big data,1,Distributed Computing Environment,Database Technology,Search & Data Management
+domino,1,Domino,,needs input
+dynamodb,1,DynamoDB,Database Technology,needs input
+elastic search,1,Elasticsearch,Search tools,Search & Data Management
+engineering,1,Engineering,,needs input
+erwin,1,Erwin,Data Modeling,Machine Learning & Stats
+erwin r7.0,1,Erwin,Data Modeling,Machine Learning & Stats
+microsoft excel,1,Excel,Spreadsheet,Data Visualization & Reporting
+3+ years experience doing data science with r and python in a professional,1,Experience,,needs input
+5+ years of experience in a similar role and experience in web attribution analytics.,1,Experience,,needs input
+7 years of progressively increasing responsibilities (marketing,1,Experience,,needs input
+9+ years of demonstrated experience leading teams,1,Experience,,needs input
+at least 2 to 4 years professional experience in nlp,1,Experience,,needs input
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1,Experience,,needs input
+data scientist level 1 experience with data sets,1,Experience,,needs input
+experience using statistical computer languages (r,1,Experience,,needs input
+experience with machine learning,1,Experience,,needs input
+financial data experience,1,Experience,,needs input
+financial experience,1,Experience,,needs input
+fintech exp,1,Experience,,needs input
+masters degree with 5 years of experience in creating machine learning pipelines,1,Experience,,needs input
+flash,1,Flash,,needs input
+forecast,1,Forecast,Statistics,Machine Learning & Stats
+full funnel analytics,1,Full Funnel Analytics,,needs input
+full funnel analytics - marketing analytics,1,Full Funnel Analytics,,needs input
+full stack,1,Full Stack,,needs input
+graphics,1,Graphics,,needs input
+h2o or azure ml,1,H2O,,Machine Learning & Stats
+image analytics,1,Image Analytics,AI,Machine Learning & Stats
+image analytics - python,1,Image Analytics,AI,Machine Learning & Stats
+hdfs/ hive/ impala,1,Impala,Database Technology,Search & Data Management
+ieor,1,Industrial Engineering and Operations Research,Academic department,Domain Expertise
+reinforcement learningm probabistic inference,1,Inference,Machine Learning,Machine Learning & Stats
+big data management tools i.e. informatica bdm/idl/eic/idq,1,Informatica,Cloud Computing,Search & Data Management
+iterative development,1,Iterative Development,Methodology,needs input
+jdbc,1,Java Database Connectivity,Programming Language,Search & Data Management
+jda software,1,JDA Software,Supply Chain,needs input
+machine learning jda software,1,JDA Software,Supply Chain,needs input
+kafka,1,Kafka,Development tool (real-time data),Search & Data Management
+postgres) kafka,1,Kafka,Development tool (real-time data),Search & Data Management
+presto - kafka,1,Kafka,Development tool (real-time data),Search & Data Management
+kaggle,1,Kaggle,Competition,"Projects & Challenges, Competitions"
+etc. o excellent understanding of fundamental machine learning techniques and algorithms,1,Knowledge,Machine Learning,needs input
+kubernates,1,Kubernetes,Containers,needs input
+labeling,1,Labeling,,needs input
+laboratory,1,Laboratory,,needs input
+lambda functions,1,Lambda Functions,Mathematical,Machine Learning & Stats
+lambda tier,1,Lambda Functions,Mathematical,Machine Learning & Stats
+linear,1,Linear,Methodology,needs input
+logging systems,1,Logging Systems,,needs input
+materials,1,Materials,,needs input
+quantitative and mathematical proficiency,1,Mathematical Proficiency,Mathematical,Machine Learning & Stats
+microservices,1,Microservices,,needs input
+microsoft,1,Microsoft,,needs input
+microstrategy,1,Microstrategy,,Data Visualization & Reporting
+middleware,1,Middleware,,needs input
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Modeling,,Machine Learning & Stats
+data scientist machine learning statistical modeling database data python r cloud,1,Modeling,,Machine Learning & Stats
+natural programmer,1,Natural Programmer,,Programming Languages & Distributions
+networking,1,Networking,,Search & Data Management
+networking architecture,1,Networking,,Search & Data Management
+data science analytics networks machine learning tensorflow,1,Networks,,Machine Learning & Stats
+python (including numpy,1,Numpy,Programming Language,Programming Languages & Distributions
+operating,1,Operating,,needs input
+optimization,1,Optimization,Mathematical Technique,Machine Learning & Stats
+(toolkits like pandas,1,Pandas,Programming Language,Programming Languages & Distributions
+scipy & pandas),1,Pandas,Programming Language,Programming Languages & Distributions
+performance,1,Performance,,needs input
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud.,1,Pivotal Cloud Foundry,Cloud Computing,Search & Data Management
+expertise/experience working on cloud platforms - pivotal cloud foundry and public cloud aws/azure/google cloud. should have hands on experience configuring and onboarding users including developer,1,Pivotal Cloud Foundry,Cloud Computing,Search & Data Management
+infrastructure/platform design,1,Platform,,needs input
+business analyst data scientist r python jira github tableau powerbi statistics,1,PowerBI,Visualization,Data Visualization & Reporting
+microsoft powerbi,1,PowerBI,Visualization,Data Visualization & Reporting
+power bi,1,PowerBI,Visualization,Data Visualization & Reporting
+powerpoint,1,PowerPoint,,Data Visualization & Reporting
+presto,1,Presto,,Search & Data Management
+presto - kafka,1,Presto,,Search & Data Management
+process reengineering,1,Process Reengineering,Domain Expertise,needs input
+sales or product development function) within a data driven organization,1,Product Development,,needs input
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1,Programming Languages,,Programming Languages & Distributions
+protocols,1,Protocols,,needs input
+puppet,1,Puppet,,needs input
+pydata,1,Pydata,,Conferences
+pyspark hadoop,1,Pyspark,Database Tecnology,needs input
+pythin,1,Pythin,,Programming Languages & Distributions
+rabbitmq,1,RabbitMQ,,needs input
+(machine learning ) and (artificial intelligence ) and (rafa ),1,Rafa,,needs input
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Random Forest,Machine Learning,Machine Learning & Stats
+or recommender systems,1,Recommender Systems,Machine Learning,Machine Learning & Stats
+recommendation,1,Recommender Systems,Machine Learning,Machine Learning & Stats
+rnn,1,Recurrent Neural Network,Machine Learning,Machine Learning & Stats
+data warehouse reporting,1,Reporting,General Skill,Data Visualization & Reporting
+report,1,Reporting,General Skill,Data Visualization & Reporting
+reporting,1,Reporting,General Skill,Data Visualization & Reporting
+reporting service (ssrs),1,Reporting,General Skill,Data Visualization & Reporting
+reporting&etl,1,Reporting,General Skill,Data Visualization & Reporting
+redshift; s3,1,S3,,needs input
+saas,1,SaaS,,needs input
+sagemaker,1,SageMaker,,needs input
+sap isu,1,SAP,Database Technology,Search & Data Management
+scheduling,1,Scheduling,,needs input
+scikit-learn data visualization (matplotlib,1,Scikit-Learn,Machine Learning,Machine Learning & Stats
+sklearn,1,Scikit-Learn,Machine Learning,Machine Learning & Stats
+scipy & pandas),1,Scipy,Programming Language - Mathematical,Programming Languages & Distributions
+seaborn,1,Seaborn,,Data Visualization & Reporting
+machine learning and supervised machine learning to cybersecurity or fraud detectionworking knowledge of security detection tools,1,Security,,needs input
+network/ security,1,Security,,needs input
+share knowledge and build a world class security platform,1,Security,,needs input
+test ng/selenium,1,Selenium,Test automation,Programming Languages & Distributions
+snowflake,1,Snowflake,,needs input
+software development,1,Software Development,General Skill,needs input
+sdlc,1,Software Development Life Cycle,General Skill,needs input
+sosql,1,SOSQL,,Search & Data Management
+spend analysis,1,Spend Analysis,,needs input
+splunk,1,Splunk,,Search & Data Management
+wps or spss or python prefer: sql server,1,SQL Server,Database Technology,Search & Data Management
+integration service (ssis),1,SQL Server,Database Technology,Search & Data Management
+sgml,1,Standard Generalized Markup Language,,needs input
+corenlp,1,Stanford CoreNLP,Natural Language Processing,Machine Learning & Stats
+stanford,1,Stanford CoreNLP,Natural Language Processing,Machine Learning & Stats
+stanford corenlp,1,Stanford CoreNLP,Natural Language Processing,Machine Learning & Stats
+sprocs,1,Stored Procedure,Database Technology,Search & Data Management
+structured and unstructured data,1,Structured Data,General Skill,Machine Learning & Stats
+supplier campaign tracking,1,Supplier Campaign Tracking,Domain Expertise,needs input
+supply chain forecasting,1,Supply Chain,Domain Expertise,needs input
+svm,1,Support Vector Machines,Machine Learning,needs input
+sybase,1,Sybase,Database Technology,Search & Data Management
+python software developer background; ml; data science; system programming; webservices,1,System Programming,General Skill,needs input
+systems,1,Systems,,needs input
+t-sql,1,T-SQL,Database Technology,Search & Data Management
+(digital tag over 0.2 year(s) or tag management over 0.2 year(s) or tagging over 0.2 year(s) or tealium over 0.2 year(s) or piwik pro over 0.2 year(s) or pixel over 0.2 year(s) or qubit over 0.2 year(s) or opentag over 0.2 year(s) or open tag over 0.2 year(s) or ensighten over 0.2 year(s) or google tag over 0.2 year(s) or dynamic tag management over 0.2 year(s) or tag commander over 0.2 year(s) or mezzobit over 0.2 year(s) or supertag over 0.2 year(s) or super tag over 0.2 year(s) or tag defender over 0.2 year(s) or ubertags over 0.2 year(s) or ddx over 0.2 year(s) ) and(analytics over 0.2 year(s) or data scientist over 0.2 year(s) or informatics over 0.2 year(s) ) and(javascript over 0.2 year(s) or java script over 0.2 year(s) or html over 0.2 year(s) ),1,Tagging,,Search & Data Management
+machine learning and tensorflow and statistical model,1,TensorFlow,Machine Learning,Machine Learning & Stats
+data science analytics networks machine learning tensorflow,1,TensorFlow,Machine Learning,Machine Learning & Stats
+tensor flow,1,TensorFlow,Machine Learning,Machine Learning & Stats
+terraform,1,Terraform,Infrastructure Management,Search & Data Management
+team setting (including git & unit testing),1,Testing,,Machine Learning & Stats
+test,1,Testing,,Machine Learning & Stats
+test ng/selenium,1,Testing,,Machine Learning & Stats
+test plan,1,Testing,,Machine Learning & Stats
+cloud infrastructure and threat intelligenceexperience with data visualization and programming languages,1,Threat Intelligence,Domain Expertise,needs input
+tibco,1,TIBCO,Middleware,needs input
+typescript,1,TypeScript,,needs input
+structured and unstructured data,1,Unstructured Data,Data Acquisition/Management,Search & Data Management
+user interface,1,UX/UI,Domain Expertise,needs input
+ux,1,UX/UI,Domain Expertise,needs input
+vertica,1,Vertica,,Search & Data Management
+data analyst and capacity and visualization and sql and azure,1,Visualization,,Data Visualization & Reporting
+watson,1,Watson,Artifical Intelligence,needs input
+watson data studio,1,Watson,Artifical Intelligence,needs input
+watson discovery,1,Watson,Artifical Intelligence,needs input
+5+ years of experience in a similar role and experience in web attribution analytics.,1,Web Analytics,,Data Visualization & Reporting
+python software developer background; ml; data science; system programming; webservices,1,Web Services,,Search & Data Management
+wps or spss or python prefer: sql server,1,WPS,,needs input
+xgboot,1,XGBoost,Machine Learning,Machine Learning & Stats
+xslt,1,XSLT,,needs input
+apache zeppelin,1,Zeppelin,,Collaboration
