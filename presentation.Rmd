@@ -13,16 +13,20 @@ Our motivation for this study is to gain an understanding of which skills are th
 
 ## Approach
 
-To answer this question we will scrape data scientist job listings on dice.com and extract the skills listed on the postings.
+To answer this question scrape data scientist job listings on dice.com and extract the skills listed on the postings.
+
+* 453 "Data Scientist" Job Postings
+* Scrapped 15 October 2018
 
 ## Findings
 
-### What are the Key Skills?
+### What Are The Key Skills?
 ```{r fig.width=10, fig.height=10, echo=FALSE, message=FALSE}
 library(dplyr)
 library(wordcloud)
 
-data <- read.csv("https://raw.githubusercontent.com/mikeasilva/data-scientist-skills/master/ds%20skills%20-%20cleaning%20-%20categorized_skills.csv", header = TRUE) %>%
+#data <- read.csv("https://raw.githubusercontent.com/mikeasilva/data-scientist-skills/master/ds%20skills%20-%20cleaning%20-%20categorized_skills.csv", header = TRUE) %>%
+data <- read.csv("ds skills - cleaning - categorized_skills.csv", header = TRUE) %>%
   filter(clean_skill != "Exclude") %>%
   filter(skill_group != "Position") %>%
   group_by(clean_skill, Period.Table.Group) %>%
@@ -36,6 +40,24 @@ wordcloud(words = data$clean_skill, freq = data$count, scale=c(8,.5),
           min.freq = 2, max.words=200, random.order=FALSE, rot.per=0, 
           colors=brewer.pal(8, "Dark2"))
 ```
+
+### Top 10 Data Science Skills
+
+```{r, echo=FALSE}
+library(ggplot2)
+data %>%
+  top_n(10, count) %>%
+  ggplot(.,aes(reorder(clean_skill, count), count)) + 
+  geom_col(aes(fill = Period.Table.Group)) + 
+  coord_flip() + 
+  labs(x = NULL, y = "Count", title = "Data Science Skills", subtitle = "Mined from Job Listings") + 
+  guides(fill=guide_legend(title=NULL, nrow=2,byrow=TRUE)) + 
+  theme(legend.position="bottom")
+```
+
+## Limitations
+
+* Data only for "Data Scientist" positions.  May have excluded data scientist positions under a different name.
 
 ## Replication
 
