@@ -58,6 +58,7 @@ data %>%
 ## Limitations
 
 * Data only for "Data Scientist" positions.  May have excluded data scientist positions under a different name.
+* We only scrapped the skills portion of the job posting.  Additional skills could be found in the full job description section.
 
 ## Replication
 
