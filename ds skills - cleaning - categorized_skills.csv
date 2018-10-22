@@ -1,5 +1,5 @@
 skill,count,clean_skill,skill_group,Period Table Group
-python,254,Python,Programming Language,Conferences
+python,254,Python,Programming Language,Programming Languages & Distributions
 sql,124,SQL,Database Technology,Programming Languages & Distributions
 r,93,R,Programming Language,Programming Languages & Distributions
 machine learning,90,Machine Learning,Machine Learning,Machine Learning & Stats
@@ -240,10 +240,10 @@ c++ - operations research,2,C++,Programming Language,Programming Languages & Dis
 golang,2,Go,Programming Language,Programming Languages & Distributions
 python or java,2,Java,Programming Language,Programming Languages & Distributions
 php,2,PHP,Programming Language,Programming Languages & Distributions
-apache spark - python,2,Python,Programming Language,Conferences
-python or java,2,Python,Programming Language,Conferences
-python or r,2,Python,Programming Language,Conferences
-python tools,2,Python,Programming Language,Conferences
+apache spark - python,2,Python,Programming Language,Programming Languages & Distributions
+python or java,2,Python,Programming Language,Programming Languages & Distributions
+python or r,2,Python,Programming Language,Programming Languages & Distributions
+python tools,2,Python,Programming Language,Programming Languages & Distributions
 programming in r,2,R,Programming Language,Programming Languages & Distributions
 python or r,2,R,Programming Language,Programming Languages & Distributions
 regression/logistic regression - sas,2,SAS,Programming Language,Programming Languages & Distributions
@@ -713,50 +713,50 @@ python/java/c#,1,Java,Programming Language,Programming Languages & Distributions
 scala or javaexperience driving research and early stage projects to production implementationcreative approach to problem solving and using leading edge tools to build innovative solutionsteam player with strong desire to learn,1,Java,Programming Language,Programming Languages & Distributions
 jquery/javascript programming (including scripting / coding),1,jQuery,Programming Language,Programming Languages & Distributions
 node,1,Node.js,Programming Language,Programming Languages & Distributions
-(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Python,Programming Language,Conferences
-1. python 2. nlp 3. deep learning,1,Python,Programming Language,Conferences
-3+ years experience doing data science with r and python in a professional,1,Python,Programming Language,Conferences
-anaconda - python,1,Python,Programming Language,Conferences
-business analyst data scientist r python jira github tableau powerbi statistics,1,Python,Programming Language,Conferences
-crm - python,1,Python,Programming Language,Conferences
-data science - python,1,Python,Programming Language,Conferences
-data science and implementations in python,1,Python,Programming Language,Conferences
-data science python,1,Python,Programming Language,Conferences
-data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Python,Programming Language,Conferences
-data scientist machine learning statistical modeling database data python r cloud,1,Python,Programming Language,Conferences
-data scientist machine learning statistics r python c# java scala,1,Python,Programming Language,Conferences
-deep learning and machine learning and research and statistical models and (python,1,Python,Programming Language,Conferences
-image analytics - python,1,Python,Programming Language,Conferences
-including python,1,Python,Programming Language,Conferences
-machine learning - python,1,Python,Programming Language,Conferences
-machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Python,Programming Language,Conferences
-machine learning (aml)python,1,Python,Programming Language,Conferences
-machine learning python sql / nosql databases,1,Python,Programming Language,Conferences
-modeling - python,1,Python,Programming Language,Conferences
-must have skills: data science python sas,1,Python,Programming Language,Conferences
-or python and experience with languages/ frameworks used in ml & analytics: spark,1,Python,Programming Language,Conferences
-pig - python,1,Python,Programming Language,Conferences
-principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Python,Programming Language,Conferences
-python - aws,1,Python,Programming Language,Conferences
-python - data science,1,Python,Programming Language,Conferences
-python - machine learning,1,Python,Programming Language,Conferences
-python (including numpy,1,Python,Programming Language,Conferences
-python and (,1,Python,Programming Language,Conferences
-python r scala sql,1,Python,Programming Language,Conferences
-python software developer background; ml; data science; system programming; webservices,1,Python,Programming Language,Conferences
-python.,1,Python,Programming Language,Conferences
-python/java/c#,1,Python,Programming Language,Conferences
-python/r,1,Python,Programming Language,Conferences
-python/r/sas,1,Python,Programming Language,Conferences
-pyton,1,Python,Programming Language,Conferences
-r and/or python,1,Python,Programming Language,Conferences
-r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Python,Programming Language,Conferences
-r/python,1,Python,Programming Language,Conferences
-r/python programming,1,Python,Programming Language,Conferences
-rdbms - python,1,Python,Programming Language,Conferences
-sas or pytho,1,Python,Programming Language,Conferences
-sas or python,1,Python,Programming Language,Conferences
-wps or spss or python prefer: sql server,1,Python,Programming Language,Conferences
+(data scientist ) and (data analysis or running data pipelines ) and(machine learning or matlab ) and(python ),1,Python,Programming Language,Programming Languages & Distributions
+1. python 2. nlp 3. deep learning,1,Python,Programming Language,Programming Languages & Distributions
+3+ years experience doing data science with r and python in a professional,1,Python,Programming Language,Programming Languages & Distributions
+anaconda - python,1,Python,Programming Language,Programming Languages & Distributions
+business analyst data scientist r python jira github tableau powerbi statistics,1,Python,Programming Language,Programming Languages & Distributions
+crm - python,1,Python,Programming Language,Programming Languages & Distributions
+data science - python,1,Python,Programming Language,Programming Languages & Distributions
+data science and implementations in python,1,Python,Programming Language,Programming Languages & Distributions
+data science python,1,Python,Programming Language,Programming Languages & Distributions
+data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Python,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistical modeling database data python r cloud,1,Python,Programming Language,Programming Languages & Distributions
+data scientist machine learning statistics r python c# java scala,1,Python,Programming Language,Programming Languages & Distributions
+deep learning and machine learning and research and statistical models and (python,1,Python,Programming Language,Programming Languages & Distributions
+image analytics - python,1,Python,Programming Language,Programming Languages & Distributions
+including python,1,Python,Programming Language,Programming Languages & Distributions
+machine learning - python,1,Python,Programming Language,Programming Languages & Distributions
+machine learning ; predictive analytics; neural network ; decision tree ; random forest ; linear regression ; python or r or sas; datarobot; sql; nosql,1,Python,Programming Language,Programming Languages & Distributions
+machine learning (aml)python,1,Python,Programming Language,Programming Languages & Distributions
+machine learning python sql / nosql databases,1,Python,Programming Language,Programming Languages & Distributions
+modeling - python,1,Python,Programming Language,Programming Languages & Distributions
+must have skills: data science python sas,1,Python,Programming Language,Programming Languages & Distributions
+or python and experience with languages/ frameworks used in ml & analytics: spark,1,Python,Programming Language,Programming Languages & Distributions
+pig - python,1,Python,Programming Language,Programming Languages & Distributions
+principal data scientist skills: analytics - statistics - machine learning - ml - data models - big data - pricing revenue - retail - cloud - price optimization - r - python,1,Python,Programming Language,Programming Languages & Distributions
+python - aws,1,Python,Programming Language,Programming Languages & Distributions
+python - data science,1,Python,Programming Language,Programming Languages & Distributions
+python - machine learning,1,Python,Programming Language,Programming Languages & Distributions
+python (including numpy,1,Python,Programming Language,Programming Languages & Distributions
+python and (,1,Python,Programming Language,Programming Languages & Distributions
+python r scala sql,1,Python,Programming Language,Programming Languages & Distributions
+python software developer background; ml; data science; system programming; webservices,1,Python,Programming Language,Programming Languages & Distributions
+python.,1,Python,Programming Language,Programming Languages & Distributions
+python/java/c#,1,Python,Programming Language,Programming Languages & Distributions
+python/r,1,Python,Programming Language,Programming Languages & Distributions
+python/r/sas,1,Python,Programming Language,Programming Languages & Distributions
+pyton,1,Python,Programming Language,Programming Languages & Distributions
+r and/or python,1,Python,Programming Language,Programming Languages & Distributions
+r required; python & spark | data mining | data mining expertise: sql required; machine learning | hadoop framework,1,Python,Programming Language,Programming Languages & Distributions
+r/python,1,Python,Programming Language,Programming Languages & Distributions
+r/python programming,1,Python,Programming Language,Programming Languages & Distributions
+rdbms - python,1,Python,Programming Language,Programming Languages & Distributions
+sas or pytho,1,Python,Programming Language,Programming Languages & Distributions
+sas or python,1,Python,Programming Language,Programming Languages & Distributions
+wps or spss or python prefer: sql server,1,Python,Programming Language,Programming Languages & Distributions
 pytorch,1,PyTorch,Programming Language,Programming Languages & Distributions
 3+ years experience doing data science with r and python in a professional,1,R,Programming Language,Programming Languages & Distributions
 ai - r,1,R,Programming Language,Programming Languages & Distributions
@@ -866,10 +866,10 @@ etl; data; spark; hive; extract; transform; load; sql; aws; design; data sets,1,
 data pipelines,1,Data Pipelines,Data Engineering,Search & Data Management
 data scientist data pipeline modeling data engineer r sas python spark machine learning,1,Data Pipelines,Data Engineering,Search & Data Management
 biomedical - data science,1,Data Science,,needs input
-data science - python,1,Python,,Conferences
+data science - python,1,Python,,Programming Languages & Distributions
 data science analytics networks machine learning tensorflow,1,Machine Learning,,Machine Learning & Stats
-data science and implementations in python,1,Python,,Conferences
-data science python,1,Python,,Conferences
+data science and implementations in python,1,Python,,Programming Languages & Distributions
+data science python,1,Python,,Programming Languages & Distributions
 data science; statistics,1,Statistics,,Machine Learning & Stats
 data science/ai/machine learning,1,Machine Learning,,Machine Learning & Stats
 data sciences,1,Data Science,,needs input

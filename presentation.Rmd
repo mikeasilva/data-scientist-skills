@@ -1,0 +1,88 @@
+---
+title: "Skills of a Data Scientist"
+author: "Corey Arnouts, Mike Silva, Michael Yampol, Elizabeth Drikman"
+date: "October 21, 2018"
+output: 
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+## Motivation
+
+Our motivation for this study is to gain an understanding of which skills are the most useful for a data scientist to have so that we can plan what courses to take in our Master's program.
+
+## Approach
+
+To answer this question scrape data scientist job listings on dice.com and extract the skills listed on the postings.
+
+* 453 "Data Scientist" Job Postings
+* Scraped 15 October 2018
+
+## Data Sources
+
+* https://www.Dice.com - source of job postings
+* DataCamp Periodic Table of Data Science: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Data-Science-Periodic-Table.pdf - skill categorization jumping off point
+* https://towardsdatascience.com/the-most-in-demand-skills-for-data-scientists-4a4a8db896db - analytical inspiration
+
+
+## Data Acquisition and Processing
+
+* Data was scraped in two stages:  First search results URLs were scrapped using Selinum and stored in MySQL table.  Next the pages were scraped asynchronously and stored in the MySQL table.
+* Skills were extracted from JSON objects found in the JavaScript. 
+* We used the cSplit function to parse out the strings by a single character separator I used : , ; , -
+* We used this in combination with the gather function to bring the columns back together after splitting them by these characters
+
+## Findings
+
+### What Are The Key Skills?
+```{r fig.width=10, fig.height=10, echo=FALSE, message=FALSE}
+library(dplyr)
+library(wordcloud)
+
+data <- read.csv("ds skills - cleaning - categorized_skills.csv") %>%
+  filter(clean_skill != "Exclude") %>%
+  filter(skill_group != "Position") %>%
+  rename(Period_Table_Group = Period.Table.Group) %>%
+  group_by(clean_skill, Period_Table_Group) %>%
+  summarise(count = sum(count)) %>%
+  arrange(-count) %>%
+  ungroup()
+
+set.seed(2)
+
+wordcloud(words = data$clean_skill, freq = data$count, scale = c(8, 0.5),
+          min.freq = 2, max.words = 200, random.order = FALSE, rot.per = 0,
+          colors = brewer.pal(8, "Spectral"))
+```
+
+### Top 20 Data Science Skills
+
+```{r, echo=FALSE}
+library(ggplot2)
+data %>%
+  top_n(20, count) %>%
+  ggplot(., aes(reorder(clean_skill, count), count)) +
+  geom_col(aes(fill = Period_Table_Group)) +
+  coord_flip() +
+  labs(x = NULL, y = "Count", title = "Data Science Skills",
+       subtitle = "Mined from Job Listings") +
+  scale_fill_brewer(palette = "Spectral") +
+  guides(fill = guide_legend(title = NULL, nrow = 3, byrow = TRUE)) +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5))
+```
+
+## Limitations & Workarounds
+
+* Data only for "Data Scientist" positions.  May have excluded data scientist positions under a different name.
+* We only scraped the skills portion of the job posting.  Additional skills could be found in the full job description section.
+* While we were able to clean the data and separate out all of the skills, we still needed to manually comb through the terms and categorize them.
+
+## Things to Consider
+
+* There were some vague skills listed, which makes us wonder how accurately data scientist job postings are articulated. Some examples are "Algorithm" or "Development" or even "Programming". Intuitively, these don't give much insight into what tools are being used, nor what the responsibilities will be for the future data scientist. 
+
+## Replication
+
+See https://github.com/mikeasilva/data-scientist-skills
