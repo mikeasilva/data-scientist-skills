@@ -1,0 +1,29 @@
+---
+title: "Skills of a Data Scientist"
+author: "Team MMEC"
+date: "October 21, 2018"
+output: 
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+## What are the Key Skills
+```{r fig.width=10, fig.height=10, echo=FALSE}
+library(dplyr)
+library(wordcloud)
+
+data <- read.csv("https://raw.githubusercontent.com/mikeasilva/data-scientist-skills/master/ds%20skills%20-%20cleaning%20-%20categorized_skills.csv", header = TRUE) %>%
+  filter(clean_skill != "Exclude") %>%
+  filter(skill_group != "Position") %>%
+  group_by(clean_skill, Period.Table.Group) %>%
+  summarise(count = sum(count)) %>%
+  arrange(-count) %>%
+  ungroup()
+
+set.seed(2)
+
+wordcloud(words = data$clean_skill, freq = data$count, scale=c(8,.5),
+          min.freq = 2, max.words=200, random.order=FALSE, rot.per=0, 
+          colors=brewer.pal(8, "Dark2"))
+```
+
