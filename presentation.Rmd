@@ -7,8 +7,18 @@ output:
     highlight: kate
 ---
 
-## What are the Key Skills
-```{r fig.width=10, fig.height=10, echo=FALSE}
+## Motivation
+
+Our motivation for this study is to gain an understanding of which skills are the most useful for a data scientist to have so that we can plan what courses to take in our Master's program.
+
+## Approach
+
+To answer this question we will scrape data scientist job listings on dice.com and extract the skills listed on the postings.
+
+## Findings
+
+### What are the Key Skills?
+```{r fig.width=10, fig.height=10, echo=FALSE, message=FALSE}
 library(dplyr)
 library(wordcloud)
 
@@ -27,3 +37,6 @@ wordcloud(words = data$clean_skill, freq = data$count, scale=c(8,.5),
           colors=brewer.pal(8, "Dark2"))
 ```
 
+## Replication
+
+See https://github.com/mikeasilva/data-scientist-skills
